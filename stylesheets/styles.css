@@ -10,30 +10,15 @@ html{
 }
 
 body {
-    
-    -webkit-animation-delay: 0.1s;
-    -webkit-animation-name: fontfix;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: linear;
-    
-    
   padding:50px;
   font:14px/1.5 "Helvetica Neue", Helvetica, 'Lato', sans-serif;
   color:#777;
   font-weight:300;
 }
 
-@-webkit-keyframes fontfix {
-    from { opacity: 1; }
-    to   { opacity: 1; }
-}
-
 header {
     font-family: 'Lato', sans-serif;
 }
-
-
 
 .motto {
     font-size: 3em;
