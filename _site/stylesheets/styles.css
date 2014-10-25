@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
+
+html{
+   background: url(/resources/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+body {
+  padding:50px;
+  font:14px/1.5 "Helvetica Neue", Helvetica, 'Lato', sans-serif;
+  color:#777;
+  font-weight:300;
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+}
+
+.motto {
+    font-size: 3em;
+    color: white;
+    
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.motto strong {
+    font-family: 'Tangerine';
+    font-size: 3em;
+}
+
