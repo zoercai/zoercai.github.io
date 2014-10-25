@@ -11,6 +11,8 @@ html{
   background-size: cover;
 }
 
+
+
 body {
   padding:50px;
   font:14px/1.5 "Helvetica Neue", Helvetica, 'Lato', sans-serif;
@@ -19,38 +21,7 @@ body {
 }
 
 header {
-  position: fixed;
-  top:30px;
-  width: 100%;
-  font-size: 1.1em;
-}
-
-.nav {
-  list-style: none;
-  padding: 0px 350px 0px 200px;
-  text-align: justify;
-}
-
-.nav:after{
-  content: '';
-    display: inline-block;
-    width: 100%;
-}
-
-.nav ul {
-    list-style-type: none;
-}
-
-.nav li {
-  text-align: center;
-  display: inline-block;
-}
-
-.nav a {
-  display:inline-block;
-  padding: 0px;
-  color: white;
-  text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 .motto {
@@ -62,7 +33,7 @@ header {
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 45%;
+    top: 50%;
     width: 100%;
 }
 
