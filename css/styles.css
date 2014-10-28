@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine:700|Open+Sans);
+
+html{
+   background:  linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),url(/resources/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  padding:50px;
+  font:14px/1.5 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+  color:#777;
+  font-weight:300;
+}
+
+header {
+  position: fixed;
+  top:30px;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.nav {
+  list-style: none;
+  padding: 0px 350px 0px 200px;
+  text-align: justify;
+}
+
+.nav:after{
+  content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+  text-align: center;
+  display: inline-block;
+}
+
+.nav a {
+  display:inline-block;
+  padding: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.motto {
+    font-size: 3em;
+    color: white;
+    
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+.motto strong {
+    font-family: 'Tangerine';
+    font-size: 3em;
+}
+
