@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine:700|Open+Sans);
+$base-font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+ body, h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre, hr,
+ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
@@ -13,7 +16,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
+ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -28,10 +31,10 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
+ h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre,
+ ul, ol, dl, figure,
+ %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -40,7 +43,7 @@ ul, ol, dl, figure,
 /**
  * Images
  */
-img {
+ img {
     max-width: 100%;
     vertical-align: middle;
 }
@@ -50,7 +53,7 @@ img {
 /**
  * Figures
  */
-figure > img {
+ figure > img {
     display: block;
 }
 
@@ -63,15 +66,15 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ ul, ol {
     margin-left: $spacing-unit;
 }
 
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
-    }
+       margin-bottom: 0;
+   }
 }
 
 
@@ -79,7 +82,7 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
@@ -88,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
+ a {
     color: $brand-color;
     text-decoration: none;
 
@@ -107,7 +110,7 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
+ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
@@ -125,8 +128,8 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
+ pre,
+ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
@@ -153,20 +156,53 @@ pre {
 /**
  * Wrapper
  */
-.wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+ .wrapper {
+    //max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    //max-width:         calc(800px - (#{$spacing-unit} * 2));
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    //padding-right: $spacing-unit;
+    //padding-left: $spacing-unit;
+
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        //max-width: -webkit-calc(800px - (#{$spacing-unit}));
+        //max-width:         calc(800px - (#{$spacing-unit}));
+        //padding-right: $spacing-unit / 2;
+        //padding-left: $spacing-unit / 2;
+    }
+
+    .navPanel{
+        background: linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+          ),url(/resources/bg.jpg);
+        background-size:cover;  
+        height:400px;
+
+        .navText{
+            color:white;
+            a:link{
+                color:#FFFFFF;
+            }
+            padding-top: $spacing-unit;
+            padding-right: $spacing-unit * 2;
+            padding-left: $spacing-unit * 2;
+        }
+
+        .title{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color:white;
+            font-family: 'Tangerine';
+            font-size: 5em;
+
+        }
+
     }
 }
 
@@ -175,7 +211,7 @@ pre {
 /**
  * Clearfix
  */
-%clearfix {
+ %clearfix {
 
     &:after {
         content: "";
@@ -189,7 +225,7 @@ pre {
 /**
  * Icons
  */
-.icon {
+ .icon {
 
     > svg {
         display: inline-block;
