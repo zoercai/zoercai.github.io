@@ -73,6 +73,8 @@
         }
 
         .trigger {
+            display: block;
+            float: right;
             clear: both;
             display: none;
         }
@@ -95,6 +97,10 @@
  * Site footer
  */
 .site-footer {
+    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -165,6 +171,10 @@
  * Page content
  */
 .page-content {
+    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
     padding: $spacing-unit 0;
 }
 
