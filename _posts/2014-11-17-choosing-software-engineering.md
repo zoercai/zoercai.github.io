@@ -34,7 +34,7 @@ The topic on whether programmers are born or made is controversial, and a simple
 >
 >a = b
 >
->What are a and be now?
+>What are a and b now?
 >
 >And some more questions like that. Only 44% of the students formed a consistent mental model of assignment – even a wrong one. The rest failed or didn’t answer the questions.
 >
@@ -73,7 +73,7 @@ What??? The first time I read it in year 11, I didn’t get it - they sounded li
 
 Well, here’s an actual answer. (of course I can’t guarantee this is the most correct answer, as I haven’t studied computer science, but after hearing the lecturers and fellow classmates and seniors answer this question time and time again, I think I have at least a rough idea.) So here it goes:
 
-The difference between computer science and software engineering is the same difference between science and engineering, or between biology and medicine, or between music theory and music performance. Science is about the theory and the study, and engineering is about making it happen, building the software that out there in the real world. Of course, many computer scientists are building software and coding too - most likely because there are a lot more jobs for building software - but the focus of the computer science degree is less practical than theoretical.
+The difference between computer science and software engineering is the same difference between science and engineering, or between biology and medicine, or between music theory and music performance. Science is about the theory and the study, and engineering is about making it happen, building the software that's out there in the real world. Of course, many computer scientists are building software and coding too - most likely because there are a lot more jobs for building software - but the focus of the computer science degree is less practical than theoretical.
 
 
 ###What kind of opportunities are available for software engineers in terms of internships and part-time work (aka, how easily can I get those 800 hours of [practical work experience](http://www.engineering.auckland.ac.nz/en/for/currentstudents/currentundergraduates/cu-academic-information/cu-practical-work.html) off my back), and what are the graduate/future career opportunities?
@@ -89,7 +89,7 @@ As for graduate and future career opportunities, Google, Microsoft, Facebook are
   
 The percentage of women in software engineering (or in tech in general) is apparently pretty low, and there’s a lot of attention and debate over this, so much so that you can probably find at least one blog post/article published every day by someone who claims to know the “real” reason why women aren’t in tech, and what we should do to increase and keep women in tech. But as you know, the percentage of females in _engineering in general_ is pretty low. And my advice is, ignore all that - if you love coding, go for it.
 
-The plus side to this whole situation is a lot of companies are making special effort to hire more women in software engineering. Google for example has scholarships, internships, and programs especially for women, just to make sure you’re not disadvantaged in this “male-dominated field”.
+The plus side to this whole situation is a lot of companies are making special effort to hire more women in software engineering. Google for example has scholarships, internships, and programmes especially for women, just to make sure we're not disadvantaged in this “male-dominated field”.
 <br><br><br>
 That’s all for now, I hope that helped you in your decision-making. I will write another post on my experience with second year software engineering, hopefully soon, with tips on how to prepare for the courses and what to expect. Meanwhile, if you have any question on software engineering or specialization choices in general, feel free to leave a comment below or message me. Good luck, and hopefully I will see you next year!
 
