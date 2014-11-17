@@ -223,6 +223,11 @@ pre {
             font-family: 'Tangerine';
             font-size: 5em;
         }
+
+        @media only screen and (max-width: 900px) {
+            .title { font-size:300%;}
+        }
+
     }
     .overlay:hover{
             width:100%;
