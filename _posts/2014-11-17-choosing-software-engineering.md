@@ -1,5 +1,7 @@
 ---
-published: false
+layout: default
+title: Blog
+permalink: /blog/
 ---
 
 ## Should I Choose Software Engineering?
