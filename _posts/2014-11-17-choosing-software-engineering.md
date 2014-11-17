@@ -12,6 +12,9 @@ Since posting on the [WEN Facebook group](https://www.facebook.com/groups/WENUoA
 
 I’ve written below the most common questions I have received, plus some points I think would be helpful to anyone considering studying software engineering.
 
+_By the way, if you're looking for tips on choosing your perfect degree \(in general\), click [here](https://www.auckland.ac.nz/theinsideword/?p=9625) to see the post I wrote for the University of Auckland Inside Word blog._
+
+
 ###Why should I consider studying software engineering?
 
 Because it’s the most awesome specialization out there. Seriously. While your Civil classmates are calculating trusses and soil density and whatever, you get to create and play with virtual reality, games, apps, and hack into the university system and change all your grades to A+.*
