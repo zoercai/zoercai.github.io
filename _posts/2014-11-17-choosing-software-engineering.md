@@ -43,7 +43,7 @@ Some people just don’t _get_ it. Apparently.
 
 Since you are reading this, I suspect you have studied ENGGEN 131 (or another basic programming course), so you should have no problem answering the above question. But in the end, I think the level of enjoyment you get out of programming should far outweigh how good of a programmer you are at the moment*, as you _are_ still learning. 
 
-I personally think “fit” is the most important aspect. There is a certain way of life, thought, and communication that software engineering students have that is unique to other engineering students - the way we joke about [/dev/null](http://en.wikipedia.org/wiki/Null_device), our allergy to comic sans, and the frequent occurrences of gaming jargons in our conversations - some call it “geek culture”, others call it insanity, but whatever it is, you always sense it around software engineers. _That_ is what keeps the software engineering students in an almost clique-like group in ENGGEN 204 tutorials, _that_ is what is essential for studying software engineering.
+I personally think “fit” is the most important criteria. There is a certain way of life, thought, and communication that software engineering students share that is unique from other engineering students - the way we joke about [/dev/null](http://en.wikipedia.org/wiki/Null_device), our allergy to comic sans, and the frequent occurrences of gaming jargons in our conversations - some call it “geek culture”, others call it insanity, but whatever it is, you always sense it around software engineers. _That_ is what keeps the software engineering students in an almost clique-like group in ENGGEN 204 tutorials, _that_ is what is essential for studying software engineering.
 
 \* That is, as long as you haven’t failed ENGGEN 131.
 
@@ -64,23 +64,23 @@ I personally think “fit” is the most important aspect. There is a certain wa
 
 ###What’s the difference between software engineering and computer science?
   
-So this is the answer they give on the UoA website:
+So this is the answer they give on the [UoA website](https://www.cs.auckland.ac.nz/en/about/software-engineering.html#3ceb950b9c7bb73acfaa1e2337f69955):
 
 > Software engineering is the discipline of developing and maintaining software systems that behave reliably and efficiently, are affordable to develop and maintain, and satisfy all the requirements that customers have defined for them. It seeks to integrate the principles of mathematics and computer science with the engineering practices developed for tangible, physical artifacts.
 Computer science spans a wide range, from its theoretical and algorithmic foundations to cutting-edge developments in robotics, computer vision, intelligent systems, bioinformatics, and other exciting areas. Computer Science graduates can design and implement software or devise new ways to use computers or develop effective ways to solve computing problems.
   
-What??? The first time I read it in year 13, I didn’t get it - they sounded like the same thing to me. Now - I still think they sound like the same thing.
+What??? The first time I read it in year 11, I didn’t get it - they sounded like the same thing to me. Now - I still think they sound like the same thing.
 
-Well, here’s an actual answer. (Of course I can’t guarantee this is the most correct answer, as I haven’t studied computer science, but after hearing the lecturers and fellow classmates and seniors answer this question time and time again, I think I have at least a rough idea.) So here it goes:
+Well, here’s an actual answer. (of course I can’t guarantee this is the most correct answer, as I haven’t studied computer science, but after hearing the lecturers and fellow classmates and seniors answer this question time and time again, I think I have at least a rough idea.) So here it goes:
 
 The difference between computer science and software engineering is the same difference between science and engineering, or between biology and medicine, or between music theory and music performance. Science is about the theory and the study, and engineering is about making it happen, building the software that out there in the real world. Of course, many computer scientists are building software and coding too - most likely because there are a lot more jobs for building software - but the focus of the computer science degree is less practical than theoretical.
 
 
 ###What kind of opportunities are available for software engineers in terms of internships and part-time work (aka, how easily can I get those 800 hours of [practical work experience](http://www.engineering.auckland.ac.nz/en/for/currentstudents/currentundergraduates/cu-academic-information/cu-practical-work.html) off my back), and what are the graduate/future career opportunities?
    
-It probably doesn’t seem like there are as many software engineering companies as say, civil. But the opportunities are actually ample. As I mentioned before, people who know how to code are in high demand, and even those civil engineering companies use software. In addition to the big and established companies, there are also a lot of small businesses and start-ups that are always looking for developers.
+It probably doesn’t seem like there are as many software engineering companies as, say, civil. But the opportunities are actually ample. As I mentioned before, people who know how to code are in high demand, and even those civil engineering companies use software. In addition to the big and established companies, there are also a lot of small businesses and start-ups that are always looking for developers.
 
-The company culture in software engineering companies is generally pretty great too. Interviews are often pretty casual - in fact a lot of companies expect you to turn up in jeans and t-shirt - and the offices often have a friendly and relaxed atmosphere with an unique buzz of energy.
+The company culture in software engineering companies is generally pretty great too. Interviews are often pretty casual - in fact a lot of companies expect you to turn up in jeans and t-shirt - and the offices often have a friendly and relaxed atmosphere with an unique hum of energy.
 
 As for graduate and future career opportunities, Google, Microsoft, Facebook are the biggest and most vied-for companies. There are also a lot of great start-ups you can join. You can also go solo and have your own start-up or freelance business. Knowing how to code really gives you a lot of flexibility in terms of career paths, and the best part is, these programming languages are universal, so even if you travel to the other end of the world you can still easily find a job.
 
@@ -88,7 +88,8 @@ As for graduate and future career opportunities, Google, Microsoft, Facebook are
 ###What about women in software engineering?
   
 The percentage of women in software engineering (or in tech in general) is apparently pretty low, and there’s a lot of attention and debate over this, so much so that you can probably find at least one blog post/article published every day by someone who claims to know the “real” reason why women aren’t in tech, and what we should do to increase and keep women in tech. But as you know, the percentage of females in _engineering in general_ is pretty low. And my advice is, ignore all that - if you love coding, go for it.
-However the plus side to this whole situation is a lot of companies are making special effort to hire more women in software engineering. Google for example has scholarships, internships, and programs especially for women, just to make sure you’re not disadvantaged in this “male-dominated field”.
+
+The plus side to this whole situation is a lot of companies are making special effort to hire more women in software engineering. Google for example has scholarships, internships, and programs especially for women, just to make sure you’re not disadvantaged in this “male-dominated field”.
 <br><br><br>
-That’s all for now, I hope that helped you in your decision-making. I will write another post on my experience with second year software engineering, hopefully soon, with tips on how to prepare for the courses, what to expect, etc. Meanwhile, if you have any question on software engineering or specialization choices in general, feel free to leave a comment below or message me. Good luck, and hopefully I will see you next year!
+That’s all for now, I hope that helped you in your decision-making. I will write another post on my experience with second year software engineering, hopefully soon, with tips on how to prepare for the courses and what to expect. Meanwhile, if you have any question on software engineering or specialization choices in general, feel free to leave a comment below or message me. Good luck, and hopefully I will see you next year!
 

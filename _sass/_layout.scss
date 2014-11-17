@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-.site-header {
+ .site-header {
     border-top: 0px solid $grey-color-dark;
     border-bottom: 0px solid $grey-color-light;
     min-height: 56px;
@@ -20,7 +20,7 @@
     &,
     &:visited ,
     &:hover {
-        color:white;
+        color: #dbd2bb;
         text-decoration: none;
     }
 }
@@ -34,7 +34,7 @@
     }
 
     .page-link {
-        color: white;
+        color: #dbd2bb;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -96,7 +96,7 @@
 /**
  * Site footer
  */
-.site-footer {
+ .site-footer {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -170,7 +170,7 @@
 /**
  * Page content
  */
-.page-content {
+ .page-content {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
     max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -206,7 +206,7 @@
 /**
  * Posts
  */
-.post-header {
+ .post-header {
     margin-bottom: $spacing-unit;
 }
 
