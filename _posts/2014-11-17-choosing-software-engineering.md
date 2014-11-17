@@ -1,7 +1,10 @@
 ---
-layout: default
-title: Blog
-permalink: /blog/
+layout: post
+title: "Should I Choose Software Engineering?"
+permalink: /blog/choosing-software-engineering
+date:   2014-11-17 21:03:48
+categories: "software engineering"
+tags: second year part two specialization uoa software engineering
 ---
 
 ## Should I Choose Software Engineering?
