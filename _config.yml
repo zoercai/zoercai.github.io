@@ -2,7 +2,7 @@
 title: Zoe Cai
 email: hello@zoecai.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blog and portfolio of Zoe Cai, a software engineering student at the University of Auckland.
+  I am a web designer/front-end developer living in Auckland, New Zealand. I create web interfaces with a focus on design and usability. This is my blog, powered by Jekyll and hosted on Github pages.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://zoecai.com" # the base hostname & protocol for your site
 twitter_username: zoercai
@@ -14,3 +14,6 @@ analytics :
 
 # Build settings
 markdown: kramdown
+collections:
+ projects:
+  output: true

@@ -1,23 +1,24 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import url(http://fonts.googleapis.com/css?family=Tangerine:700|Open+Sans);
 @charset "utf-8";
 
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+$base-font-size:   1em;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 2;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #01b170;
 
-$grey-color:       #828282;
+$grey-color:       #202425;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -45,5 +46,4 @@ $on-laptop:        800px;
 @import
 "base",
 "layout",
-"syntax-highlighting"
-;
+"syntax-highlighting";

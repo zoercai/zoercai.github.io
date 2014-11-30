@@ -1,0 +1,23 @@
+{% if post.image.feature %}
+	<a href="{{ root_url }}{{ post.url }}">
+	<div class="featureImage" style="background:url({{post.image.feature}}) no-repeat center center;-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;"></div></a>
+{% endif %}
+
+<h1 class="entry-title">
+
+{% if page.title %}
+    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a></div>
+{% endif %}
+
+{% if post.title %}
+    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+{% endif %}
+
+</h1>
+
+<div class="entry-content">{{ content }}</div>
+
+<div class="more"><a href="{{root_url}}{{post.url}}">Continue Reading</a></div>

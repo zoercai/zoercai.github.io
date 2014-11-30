@@ -2,17 +2,17 @@
  * Site header
  */
  .site-header {
-    border-top: 0px solid $grey-color-dark;
+    /* border-top: 0px solid $grey-color-dark;
     border-bottom: 0px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 56px; */
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
+    font-size: 1.5em;
+    line-height: 2.5em;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -20,11 +20,89 @@
     &,
     &:visited ,
     &:hover {
-        color: #dbd2bb;
+        color: #202425;
         text-decoration: none;
     }
 }
 
+.navPanel{
+    width: 100%;
+    //margin-right: auto;
+    //margin-left: auto;
+    background: linear-gradient(
+      rgba(107, 103, 92, 0), 
+      rgba(107, 103, 92, 0)
+      ),url(/resources/bg.jpg);
+    background-size:cover;  
+    height:80vh;
+
+    .overlay {
+        position:absolute;
+        width:100%;
+        height:80vh;
+        top:0px;
+        left:0px;
+        background-color:#f5ece7;
+        opacity:0.8;
+        transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -webkit-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+        -ms-transition: all 0.5s ease-in;
+    }
+
+    .overlay:hover{
+        position:absolute;
+        top:0px;
+        width:100%;
+        height:80vh;
+        background-color:#FFFFFF;
+        opacity:0.6;
+    }
+
+
+    .navText{
+        position:relative;
+        font-size: 1em;
+        color: #dbd2bb;
+        a:link{
+            color:#dbd2bb;
+        }
+        a:hover{
+            color: $brand-color;
+            text-decoration: overline;
+        }
+        float: center;
+        /* max-width: -webkit-calc(100%  - (#{$spacing-unit} * 4));
+        max-width:         calc(100%  - (#{$spacing-unit} * 4)); */
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: $spacing-unit;
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
+        z-index: 5000;
+    }
+
+    .title{
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+        color:#202425;
+        font-family: 'Tangerine';
+        font-size: 5em;
+    }
+    
+
+    @media only screen and (max-width: 900px) {
+        .title { font-size:300%;}
+    }
+}
+
+/* Mobile */
 .site-nav {
     float: right;
     line-height: 56px;
@@ -34,7 +112,7 @@
     }
 
     .page-link {
-        color: #dbd2bb;
+        color: #202425;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -49,9 +127,13 @@
         //top: 9px;
         right: 30px;
         background-color: $grey-color-dark;
-        border: 1px solid $grey-color-light;
+        border: 1px solid #f5ece7;
         border-radius: 5px;
         text-align: right;
+
+        .page-link{
+            color: #f5ece7;
+        }
 
         .menu-icon {
             display: block;
@@ -67,7 +149,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-light;
+                    fill: #f5ece7;
                 }
             }
         }
@@ -97,8 +179,9 @@
  * Site footer
  */
  .site-footer {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    /* max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    max-width:         calc(800px - (#{$spacing-unit} * 2)); */
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
     border-top: 1px solid $grey-color-light;
@@ -171,8 +254,9 @@
  * Page content
  */
  .page-content {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    /* max-width: -webkit-calc(100% - (#{$spacing-unit} * 2));
+    max-width:         calc(100%  - (#{$spacing-unit} * 2)); */
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding: $spacing-unit 0;
@@ -194,6 +278,14 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    display: inline-block;
+    width: 100%;
+}
+
+.feature-credit, .feature-credit a{
+    float: right;
+    display: inline-block;
+    margin-left: auto;
 }
 
 .post-link {
@@ -211,6 +303,7 @@
 }
 
 .post-title {
+    display: none;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;

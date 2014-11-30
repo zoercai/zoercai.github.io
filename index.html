@@ -1,13 +1,24 @@
+---
+
+---
+
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Zoe Cai</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Zoe Cai</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <!-- jQuery library (served from Google) -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="/js/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="/js/jquery.bxslider.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="stylesheets/pygment_trac.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -23,32 +34,162 @@
     </script>
   </head>
   <body>
-  
-<header>
-  <div class="overlay"></div>
-<!-- 	<ul class="nav">
-	  <li><a href="/blog">Blog</a></li>
-	  <li><a href="/">Projects</a></li>
-	  <li><a href="/">ZoeCai</a></li>
-	  <li><a href="/">About</a></li>
-	  <li><a href="/">Contact</a></li>
-	</ul> -->
-<div class="motto">
-    <center><strong>Under Construction</strong><!-- &nbsp;&nbsp;experiences --></center>
-</div>
-</header>
 
-<!-- <div class="about">
-<div class="middle">
-<div class="text">
-  <h1>Hello</h1>
-  <p>I'm Zoe,</br> a software engineering student at</br>the University of Auckland</br></br>This is my portfolio and blog</br></br>You can find my projects here.</br></br>Here is my resume in pdf.</br></br>Check out my blog here.</br></br>I am available for freelance and</br>internship/part-time work.</br></br>Please contact me here.</p>
-</div>
-</div>
+    <div class="overlay"></div> 
+
+    <header>
+      <div class="motto">
+        <center>Coding&nbsp;&nbsp;&#8203;<strong>irresistable</strong>&nbsp;&nbsp;&#8203;experiences</center>
+      </div>
+
+      <ul class="nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="/">ZoeCai</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </header>
+
+
+    <!-- Start of About Section -->
+
+    <div class="about">
+      <a name="about"></a>
+      <div class="middle">
+        <h1>Hello, I'm Zoe</h1>
+        <div class="text">
+          <p>I am a <strong>web designer/front-end developer</strong></br>living in Auckland, New Zealand.</br></br>I create web interfaces with a focus on</br><strong>design </strong> and <strong>usability</strong></p>
+          <p>With a genuine passion for</br>design, business, and technology,</br>I have gained experience in 
+            <ul><strong>
+              <li>graphics design</li>
+              <li>marketing</li>
+              <li>photography</li>
+              <li>web development</li></strong>
+            </ul>
+          </p>
+          <p>I am available for <strong>freelance</strong> and</br><strong>internship/part-time</strong> work.</p>
+          <p><a href=""><i>View my résumé in pdf</i></a></p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Start of Portfolio Section -->
+
+    <div class="portfolio">
+      <a name="portfolio"></a>
+      <h1>Portfolio</h1>  
+     <!--  <div class="portfolio-index"> 
+ -->
+      <ul class="bxslider" style="top:-20px;">
+  {% include project_slideshow.html %}
+</ul> 
+     <!--    
+      </div> -->
+
 </div>
 
-<div class="portfolio">
-</div> -->
+
+
+<!-- Start of Blog Section -->
+
+<div class="blog">
+  <a name="blog"></a>
+  <a href="/blog"><div class="title">Blog</div></a>
+
+  <div class="blog-index">  
+    {% assign post = site.posts.first %}
+    {% assign content = post.content %}
+    {% include post_detail.html %}
+  </div>
+
+</div>
+
+
+
+
+<!-- Start of Contact Section -->
+
+<div class="contact">
+  <a name="contact"></a>
+  <div class="title">Let's talk</div>
+  <div class="formLabels">
+    <p>Name</p>
+    <p>Email</p>
+    <p>Subject</p>
+    <p>Message</p>
+  </div>
+
+  <div class="formFields">
+    <section id="got-your-email">
+      <form action="http://getsimpleform.com/messages?form_api_token=65f33bef11b85d5696b8a646706b2076" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='http://0.0.0.0:4000/#got-your-email' />
+        <!-- all your input fields here.... -->
+        <p><input class="field" type="text" name="name" /></p>
+        <p><input class="field" type="email" name="email" /></p>
+        <p><input class="field" type="text" name="subject" /></p>
+        <p><textarea class="field" style="height:25vh;" name="message" name="message" /></textarea></p>
+        <p> <input class="submit" type="submit" value="Submit"> </p>
+      </form>
+      <p class="confirmation">
+        Thanks! A carrier pigeon has been dispatched with your message.
+      </p>
+    </section>
+  </div>
+
+  <div class="alternatively">
+    <p>Alternatively you can</p>
+    <p>email: hello@zoecai.com</p>
+    <p> </p>
+    <p>Or find me at:</p>
+    <p>
+      <div class="social">
+        <a href="http://nz.linkedin.com/in/zoecai"><img class="socialIcon" src="/resources/linkedin.png" /></a>
+        <a href="https://twitter.com/zoercai"><img class="socialIcon" src="/resources/twitter.png" /></a>
+        <a href="github.com/zoercai"><img class="socialIcon" src="/resources/github-2.png" /><br/></a>
+        <a href="https://www.behance.net/zoesque"><img class="socialIcon" src="/resources/behance.png" /></a>
+        <a href="www.flickr.com/photos/zoesque"><img class="socialIcon" src="/resources/flickr.png" /></a>
+        <a href="instagram.com/zoesque"><img class="socialIcon" src="/resources/instagram.png" /></a>
+      </div>
+    </p>
+
+
+  </div>
+
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    auto:true,
+    autoControls:true,
+    captions:true
+  });
+
+
+
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+});
+
+
+</script>
 
 </body>
 </html>

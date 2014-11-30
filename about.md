@@ -5,8 +5,17 @@ permalink: /about/
 published: false
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am a web designer/front-end developer living in Auckland, New Zealand.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I create web interfaces with a focus on design and usability
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+With a genuine passion for design, business, and technology, I have gained experience in
+
+graphics design
+marketing
+photography
+web development
+
+I am available for freelance and internship/part-time work.
+
+View my résumé in pdf
