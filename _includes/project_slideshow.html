@@ -4,7 +4,9 @@
 	{% if post.image.feature %}
 	<a href="{{ root_url }}{{ post.url }}">
 
-		<img src="{{post.image.feature}}" style="max-height:90vh;width:100%;text-align:center;" title="{{post.title}}"/>
+	<div style="height:90vh;background:url({{post.image.feature}});background-size:cover;text-align:center;" title="{{post.title}}"></div>
+
+		<!-- <img src="{{post.image.feature}}" style="max-height:90vh;text-align:center;" title="{{post.title}}"/> -->
 
 	</a>
 </li> 
