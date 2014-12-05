@@ -10,7 +10,7 @@ published: true
   <h1 class="page-heading">Projects</h1>
 
   <ul class="post-list">
-    {% for project in site.projects reversed %}
+    {% for project in site.projects %}
       <li>
         <span class="post-meta">{{ project.date | date: "%b %-d, %Y" }}</span>
 
