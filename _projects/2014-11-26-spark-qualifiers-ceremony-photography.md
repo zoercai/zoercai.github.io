@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spark Qualifiers Ceremony"
+title: "Spark Qualifiers Ceremony Photography"
 date:   2014-11-26 21:26:48
 categories: photography
 tags: spark,event,ceremony

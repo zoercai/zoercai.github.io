@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spark 2014"
+title: "Spark 2014 Branding"
 date:   2014-12-05 22:57:48
 categories: branding,marketing,graphics design
 tags: spark,event,promotion,branding,marketing,poster

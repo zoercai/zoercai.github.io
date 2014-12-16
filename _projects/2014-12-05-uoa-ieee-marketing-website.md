@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UoA IEEE Student Branch"
+title: "UoA IEEE Student Branch Marketing & Website"
 date:   2014-12-05 21:57:48
 categories: photography,web development,branding,marketing,graphics design
 tags: ieee,event,promotion,branding,marketing,poster
