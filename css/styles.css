@@ -539,6 +539,31 @@ filter: grayscale(0%);
 }
 
 @media only screen and (max-width: 950px) {
+    .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+  .entry-content{
+    width: 100%;
+  }
+  .contact .formLabels .formLabel {
+margin-bottom: 30px;
+}
+.contact .alternatively{
+  position: relative;
+top: 30px;
+}
+  .contact .field {
+    margin-bottom: 11px;
+    position: relative;
+    top: 22px;
+  }
+  .contact .formFields{
+    padding-left:0;
+    margin-left:0;
+    position:relative;
+    left:-5%;
+  }
   .motto{ 
     font-size:2.5em;
   }
@@ -549,6 +574,31 @@ filter: grayscale(0%);
 }
 
 @media only screen and (max-width: 800px) {
+    .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+  .entry-content{
+    width: 100%;
+  }
+  .contact .formLabels .formLabel {
+margin-bottom: 30px;
+}
+.contact .alternatively{
+  position: relative;
+top: 30px;
+}
+  .contact .field {
+    margin-bottom: 11px;
+    position: relative;
+    top: 22px;
+  }
+  .contact .formFields{
+    padding-left:0;
+    margin-left:0;
+    position:relative;
+    left:-5%;
+  }
   .motto{ 
     font-size:2em;
   }
@@ -558,6 +608,31 @@ filter: grayscale(0%);
 }
 
 @media only screen and (max-width: 650px) {
+  .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+  .entry-content{
+    width: 100%;
+  }
+  .contact .formLabels .formLabel {
+margin-bottom: 30px;
+}
+.contact .alternatively{
+  position: relative;
+top: 30px;
+}
+  .contact .field {
+    margin-bottom: 11px;
+    position: relative;
+    top: 22px;
+  }
+  .contact .formFields{
+    padding-left:0;
+    margin-left:0;
+    position:relative;
+    left:-5%;
+  }
   .motto{ 
     font-size: 1.5em;
     line-height: 2.5em;
