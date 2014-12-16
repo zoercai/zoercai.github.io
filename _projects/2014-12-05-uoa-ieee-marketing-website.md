@@ -19,7 +19,9 @@ published: true
 ![1](https://m1.behance.net/rendition/modules/140146291/hd/0828531bfe0e8666341cd1ea141ccb8a.jpg)
 ![1](https://m1.behance.net/rendition/modules/140146293/hd/3f21de03a8f4e28fba9a4894bed822b4.jpg)
 
-<br/><center>Website created by coding a Wordpress template. Featuring parallax scrolling.</center><br/>
+<br/><center>Website created by coding a Wordpress template. Featuring parallax scrolling.<br>
+<a href="http://ieeesb.auckland.ac.nz">ieeesb.auckland.ac.nz</a>
+</center><br/>
 
 ![1](https://m1.behance.net/rendition/modules/140146295/hd/1c61eaec84c213fbaf82940e0151d54c.jpg)
 ![1](https://m1.behance.net/rendition/modules/140146297/hd/5ccd47d3caae0ead0b747f157a599ac8.jpg)
