@@ -512,11 +512,13 @@ filter: grayscale(0%);
 }
 
 .contact .socialIcon{
+   border:0 !important;
   padding: 3%;
   opacity:0.6;
 }
 
 .contact .socialIcon:hover{
+   border:0 !important;
   padding: 3%;
   opacity:1;
 }
