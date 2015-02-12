@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://zoecai.com/</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/resources/resume.pdf</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/projects/2014-12-17-optimist.html</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/projects/2014-12-05-uoa-ieee-marketing-website.html</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/projects/2014-11-26-spark-qualifiers-ceremony-photography.html</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/projects/2014-11-26-spark-2014-branding.html</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/blog/</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/blog/hunt-for-uni-laptop/</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/projects/</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://zoecai.com/blog/choosing-software-engineering/</loc>
+  <lastmod>2015-02-12T01:18:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
