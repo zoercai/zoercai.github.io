@@ -130,7 +130,7 @@ header {
 }
 
 .motto {
-    font-size: 3em;
+    font-size: 2em;
     left: 0;
     line-height: 200px;
     margin: auto;
@@ -142,7 +142,7 @@ header {
 
 .motto strong {
     font-family: 'Tangerine';
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .about{
