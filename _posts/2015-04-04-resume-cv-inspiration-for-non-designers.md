@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Resume Inspiration & Resources for Non-Designers"
-permalink: /blog/resume-inspiration-and-resources-for-non-designers
+title: "Resume Inspiration for Non-Designers"
+permalink: /blog/resume-inspiration-for-non-designers
 date:   2015-04-04 18:46:48
 categories: job
-tags: job resume cv career interview design usability resources
+tags: job resume cv career interview design usability
 comments: true
 image:
   feature: http://content.finda.photo/startupstockphotos/94180097361.jpg
