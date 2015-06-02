@@ -1,0 +1,41 @@
+/**
+ * Site header, ie. sidebar
+ */
+
+
+header.sidebar{
+	width: 30%;
+	border-right: 1px solid rgba(0, 0, 0, 0.15);
+	display: inline-block;
+	position: fixed;
+	background: white;
+	height: 100vh;
+	padding-top: 15vh;
+	text-align: center;
+}
+
+.site-title {
+    font-size: 1.5em;
+    letter-spacing: -1px;
+
+    &,
+    &:visited ,
+    &:hover {
+        color: #202425;
+        text-decoration: none;
+    }
+}
+
+.site-nav {
+
+    .page-link {
+        color: #202425;
+        line-height: $base-line-height;
+		display: block;
+        
+    }
+
+    @include media-query($on-palm) {
+        
+    }
+}
