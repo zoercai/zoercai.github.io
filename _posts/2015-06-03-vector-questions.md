@@ -12,7 +12,7 @@ Updated the meta section for the posts today, as I wanted to use symbols in fron
 
 # Vector Icons or Icon Fonts?
 
-Vector Icons all the way. A bunch of reasons, the most important probably being that vector icons are resiable without quality loss and appear extra sharp on retina displays.
+Vector Icons. Fpr a bunch of reasons, the most important probably being that vector icons are resizable without quality loss and appear extra sharp on retina displays.
 
 [See detailed explanation by css-tricks](https://css-tricks.com/icon-fonts-vs-svg/).
 By the way, [FlatIcon](http://www.flaticon.com) all the way.
