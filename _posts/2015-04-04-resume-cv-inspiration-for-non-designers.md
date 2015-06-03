@@ -3,7 +3,7 @@ layout: post
 title: "Resume Inspiration for Non-Designers"
 permalink: /blog/resume-inspiration-for-non-designers
 date:   2015-04-04 18:46:48
-categories: job
+categories: career
 tags: job resume cv career interview design usability
 comments: true
 image:

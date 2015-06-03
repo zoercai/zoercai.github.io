@@ -3,8 +3,8 @@ layout: post
 title: "My Hunt for a Uni Laptop"
 permalink: /blog/hunt-for-uni-laptop
 date:   2014-12-22 22:35:48
-categories: university life, technology
-tags: uoa software engineering technology laptop apple macbook air college university
+categories: university, technology
+tags: software engineering technology laptop apple macbook air college university
 comments: true
 image:
   feature: https://farm2.staticflickr.com/1346/5119057458_d7ae2bf9d6_o.jpg

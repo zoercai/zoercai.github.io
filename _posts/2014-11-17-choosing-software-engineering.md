@@ -3,8 +3,8 @@ layout: post
 title: "Should I Choose Software Engineering?"
 permalink: /blog/choosing-software-engineering
 date:   2014-11-17 21:03:48
-categories: software engineering
-tags: second year part two specialization uoa software engineering
+categories: university,career
+tags: software engineering specialization uoa university career
 comments: true
 image:
   feature: https://farm4.staticflickr.com/3152/3060172795_1fdeb59422_o.jpg
