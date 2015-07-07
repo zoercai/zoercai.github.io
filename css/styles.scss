@@ -1,0 +1,439 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import url(http://fonts.googleapis.com/css?family=Tangerine:700|Open+Sans);
+
+// Our variables
+$base-font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+$base-font-size:   16px;
+$text-color:       #202425;
+$text-light: lighten($text-color, 40%);
+$text-dark:  darken($text-color, 25%);
+
+$background-color: #f5ece7;
+$brand-color:      #01b170;
+
+$spacing-unit:     30px;
+
+$transition-time: .8s;
+
+html{
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  padding:0px;
+  margin:0px;
+  font:$base-font-size $base-font-family;
+  color:$text-color;
+}
+
+a{
+  -o-transition: $transition-time;
+  -ms-transition: $transition-time;
+  -moz-transition: $transition-time;
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
+}
+
+img{
+  -o-transition: $transition-time;
+  -ms-transition: $transition-time;
+  -moz-transition: $transition-time;
+  -webkit-transition: $transition-time;
+  transition: $transition-time;
+}
+
+header {
+  display:block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 1.2rem;
+
+  .nav {
+    background-color: $background-color;
+    position: relative;
+    height:20vh;
+    left:0;
+    right:0;
+    margin:0;
+    list-style: none;
+    padding: 0% 10% 0 10%;
+    text-align: justify;
+    z-index: 1000000;
+  }
+
+  .nav:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+
+  .nav ul {
+    list-style-type: none;
+  }
+
+  .nav li {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .nav a {
+    display: inline-block;
+    padding: 0;
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  .nav a:hover{
+    color: $brand-color;
+    text-decoration: overline;
+  }
+}
+
+
+.about{
+  background: $background-color;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+  font-size: 1rem;
+  
+  .text{
+    margin-top: 5vh;
+    z-index: 9999;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    color: $text-color;
+  }
+
+  h1{
+    color: $text-dark;
+    font-family: 'Tangerine';
+    font-size: 5em;
+    text-align: center;
+  }
+
+  ul{
+    list-style-type: none;
+    padding: 0px;
+
+    li {
+      text-align: center;
+    }
+  }
+
+  a{
+    color: $text-dark;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: $brand-color;
+    text-decoration: underline;
+  }
+}
+
+.portfolio{
+  padding: 5vh 10% 10vh 10%;
+  background: #FFFFFF;
+  font-size: 1rem;
+
+  h1{
+    color: $text-dark;
+    font-size: 5em;
+    font-family: 'Tangerine';
+    margin-bottom: 0;
+  }
+
+  .bx-wrapper{
+    margin-top: $spacing-unit;
+  }
+}
+
+.blog{
+  background: $brand-color;
+  color: white;
+  font-size: 1rem;
+  padding: 5vh 10% 10vh 10%;
+  overflow: hidden;
+  text-align: right;
+
+  .title{
+    font-size: 5em;
+    font-family: 'Tangerine';
+    margin:0px;
+    text-align: right;
+  }
+
+  a{
+    color: $background-color;
+    text-decoration: none;
+  }
+
+  .blog-index{
+    h1{
+      font-size: 1.2em;
+    }
+
+    .entry-content{
+      display: inline-block;
+      height:45vh;
+      width: 100%;
+      overflow: hidden;
+      text-align: right;
+      margin-left: auto;
+    }
+
+    .more{
+      margin-top: 3%; 
+    }
+
+    .more:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+.contact{
+  background: $text-color;
+  color: white;
+  margin: auto;
+  font-size: 1rem;
+  padding: 5vh 10% 10vh 10%;
+  text-align: left;
+  vertical-align: top;
+
+  .title{
+    position: relative;
+    font-size: 5em;
+    font-family: 'Tangerine';
+    margin: 0;
+    text-align: left;
+  }
+
+  .formLabels{
+    display: inline-block;
+    vertical-align: top;
+    width: 5%;
+  }
+
+  .formFields{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding-left: 5%;
+  }
+
+  .field{
+    font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+    width: 100%;
+    background-color: $background-color;
+    color: $text-color;
+  }
+
+  .submit {
+    width: 50%;
+    -webkit-border-radius: 33;
+    -moz-border-radius: 33;
+    border-radius: 25px;
+    color: $background-color;
+    background-color: $text-color;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: solid $background-color 2px;
+    text-decoration: none;
+    font-size: 1em;
+    float: right;
+    -o-transition:.8s;
+    -ms-transition:.8s;
+    -moz-transition:.8s;
+    -webkit-transition:.8s;
+    transition:.8s;
+  }
+
+  .submit:hover {
+    background: $background-color;
+    color: $text-color;
+    text-decoration: none;
+    cursor: pointer; 
+    cursor: hand;
+  }
+
+  #got-your-email .confirmation {
+    display: none;
+    color: $brand-color;
+  }
+
+  #got-your-email:target .confirmation {
+    display: inherit;
+  }
+
+  .alternatively{
+    float: right;
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .alternatively p{
+    padding-bottom: 5%;
+  }
+
+  .socialIcon{
+   border:0 !important;
+   padding: 3%;
+   opacity:0.6;
+ }
+
+ .contact .socialIcon:hover{
+   border:0 !important;
+   padding: 3%;
+   opacity:1;
+ }
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2em;
+  right: 0;
+  text-decoration: none;
+  color: $text-color;
+  background-color: rgba(235, 235, 235, 0.80);
+  font-size: 0.8rem;
+  padding: 1em;
+  display: none;
+}
+
+.back-to-top:hover {    
+  background-color: rgba(135, 135, 135, 0.50);
+}
+
+
+
+
+
+// Not Done Yet
+
+@media only screen and (max-width: 950px) {
+  .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+  .entry-content{
+    width: 100%;
+  }
+  .contact .formLabels .formLabel {
+    margin-bottom: 30px;
+  }
+  .contact .alternatively{
+    position: relative;
+    top: 30px;
+  }
+  .contact .field {
+    margin-bottom: 11px;
+    position: relative;
+    top: 22px;
+  }
+  .contact .formFields{
+    padding-left:0;
+    margin-left:0;
+    position:relative;
+    left:-5%;
+  }
+  .motto{ 
+    font-size:2.5em;
+  }
+  .about h1{
+    font-size:4em;
+    padding-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+  .entry-content{
+    width: 100%;
+  }
+  .contact .formLabels .formLabel {
+    margin-bottom: 30px;
+  }
+  .contact .alternatively{
+    position: relative;
+    top: 30px;
+  }
+  .contact .field {
+    margin-bottom: 11px;
+    position: relative;
+    top: 22px;
+  }
+  .contact .formFields{
+    padding-left:0;
+    margin-left:0;
+    position:relative;
+    left:-5%;
+  }
+  .motto{ 
+    font-size:2em;
+  }
+  .about h1{
+    font-size:4em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+  .entry-content{
+    width: 100%;
+  }
+  .contact .formLabels .formLabel {
+    margin-bottom: 30px;
+  }
+  .contact .alternatively{
+    position: relative;
+    top: 30px;
+  }
+  .contact .field {
+    margin-bottom: 11px;
+    position: relative;
+    top: 22px;
+  }
+  .contact .formFields{
+    padding-left:0;
+    margin-left:0;
+    position:relative;
+    left:-5%;
+  }
+  .motto{ 
+    font-size: 1.5em;
+    line-height: 2.5em;
+  }
+  .motto strong{
+    display:block;
+  }
+  .about h1{
+    font-size:3em;
+  }
+  .nav {
+    font-size: 0.8em;
+  }
+  p{
+    font-size:0.8em;
+  }
+  ul {
+    font-size:0.8em;
+  }
+}

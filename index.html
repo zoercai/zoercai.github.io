@@ -36,8 +36,6 @@
   </head>
   <body>
 
-    <div class="overlay"></div> 
-
     <header>
       <!-- <div class="motto">
         <center>Creating <strong>beautiful</strong> interfaces<br/>with <strong>beautiful</strong> code</center>
@@ -58,21 +56,18 @@
 
     <div class="about">
       <a name="about"></a>
-      <div class="middle">
-        <h1>Hello, I'm Zoe</h1>
-        <div class="text">
-          <p>I am a <strong>software engineering student</strong></br>at the University of Auckland.</br>I am also working as a <strong>web designer/developer.</strong> <br/><br/> I create interfaces with a focus on</br><strong>design, code maintainability, </strong> and <strong>usability</strong></p>
-          <p>With a genuine passion for</br>design, business, and technology,</br>I have gained experience in 
-            <ul><strong>
-              <li>graphics design</li>
-              <li>marketing</li>
-              <li>photography</li>
-              <li>web development</li></strong>
-            </ul>
-          </p>
-          <p>I am available for <strong>freelance</strong> and</br><strong>internship/part-time</strong> work.</p>
-          
-        </div>
+      <h1>Hello, I'm Zoe</h1>
+      <div class="text">
+        <p>I am a <strong>software engineering student</strong></br>at the University of Auckland.</br>I am also working as a <strong>web designer/developer.</strong> <br/><br/> I create interfaces with a focus on</br><strong>design, code maintainability, </strong> and <strong>usability</strong></p>
+        <p>With a genuine passion for</br>design, business, and technology,</br>I have gained experience in 
+          <ul><strong>
+            <li>graphics design</li>
+            <li>marketing</li>
+            <li>photography</li>
+            <li>web development</li></strong>
+          </ul>
+        </p>
+        <p>I am available for <strong>freelance</strong> and</br><strong>internship/part-time</strong> work.</p>   
       </div>
     </div>
 
@@ -82,135 +77,129 @@
 
     <div class="portfolio">
       <a name="portfolio"></a>
-      <h1>Portfolio</h1>  
-     <!--  <div class="portfolio-index"> 
- -->
+      <h1>Portfolio</h1>
       <ul class="bxslider" style="top:-20px;">
-  {% include project_slideshow.html %}
-</ul> 
-     <!--    
-      </div> -->
-
-</div>
+        {% include project_slideshow.html %}
+      </ul>
+    </div>
 
 
 
-<!-- Start of Blog Section -->
+    <!-- Start of Blog Section -->
 
-<div class="blog">
-  <a name="blog"></a>
-  <a href="/blog"><div class="title">Blog</div></a>
-
-  <div class="blog-index">  
-    {% assign post = site.posts.first %}
-    {% assign content = post.content %}
-    {% include post_detail.html %}
-  </div>
-
-</div>
-
-
-
-
-<!-- Start of Contact Section -->
-
-<div class="contact">
-  <a name="contact"></a>
-  <div class="title">Let's talk</div>
-  <div class="formLabels">
-    <p class="formLabel">Name</p>
-    <p class="formLabel">Email</p>
-    <p class="formLabel">Subject</p>
-    <p class="formLabel">Message</p>
-  </div>
-
-  <div class="formFields">
-    <section id="got-your-email">
-      <form action="http://getsimpleform.com/messages?form_api_token=65f33bef11b85d5696b8a646706b2076" method="post">
-        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-        <input type='hidden' name='redirect_to' value='http://zoecai.com/#got-your-email' />
-        <!-- all your input fields here.... -->
-        <p><input class="field" type="text" name="name" /></p>
-        <p><input class="field" type="email" name="email" /></p>
-        <p><input class="field" type="text" name="subject" /></p>
-        <p><textarea class="field" style="height:25vh;" name="message" name="message" /></textarea></p>
-        <p> <input class="submit" type="submit" value="Submit"> </p>
-      </form>
-      <p class="confirmation">
-        Thanks! A carrier pigeon has been dispatched with your message.
-      </p>
-    </section>
-  </div>
-
-  <div class="alternatively">
-    <p>Alternatively you can</p>
-    <p>email: hello@zoecai.com</p>
-    <p> </p>
-    <p>Or find me at:</p>
-    <p>
-      <div class="social">
-        <a href="http://nz.linkedin.com/in/zoecai"><img class="socialIcon" src="/resources/linkedin.png" alt="LinkedIn"/></a>
-        <a href="https://twitter.com/zoercai"><img class="socialIcon" src="/resources/twitter.png" alt="Twitter"/></a>
-        <a href="http://github.com/zoercai"><img class="socialIcon" src="/resources/github-2.png" alt="Github"/><br/></a>
-        <a href="https://www.behance.net/zoesque"><img class="socialIcon" src="/resources/behance.png" alt="Behance"/></a>
-        <a href="http://www.flickr.com/photos/zoesque"><img class="socialIcon" src="/resources/flickr.png" alt="Flickr"/></a>
-        <a href="http://instagram.com/zoesque"><img class="socialIcon" src="/resources/instagram.png" alt="Instagram"/></a>
+    <div class="blog">
+      <a name="blog"></a>
+      <a href="/blog"><h1 class="title">Blog</h1></a>
+      <div class="blog-index">  
+        {% assign post = site.posts.first %}
+        {% assign content = post.content %}
+        {% include post_detail.html %}
       </div>
-    </p>
 
-
-  </div>
-
-</div>
-
-<a href="#" class="back-to-top">Back to Top</a>
-
-<script>
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-    auto:true,
-    autoControls:true,
-    captions:true
-  });
+    </div>
 
 
 
-  $(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-});
 
-jQuery(document).ready(function() {
-    var offset = 220;
-    var duration = 500;
-    jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > offset) {
+    <!-- Start of Contact Section -->
+
+    <div class="contact">
+      <a name="contact"></a>
+      <h1 class="title">Let's talk</h1>
+      <div class="formLabels">
+        <p class="formLabel">Name</p>
+        <p class="formLabel">Email</p>
+        <p class="formLabel">Subject</p>
+        <p class="formLabel">Message</p>
+      </div>
+
+      <div class="formFields">
+        <section id="got-your-email">
+          <form action="http://getsimpleform.com/messages?form_api_token=65f33bef11b85d5696b8a646706b2076" method="post">
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='http://zoecai.com/#got-your-email' />
+            <!-- all your input fields here.... -->
+            <p><input class="field" type="text" name="name" /></p>
+            <p><input class="field" type="email" name="email" /></p>
+            <p><input class="field" type="text" name="subject" /></p>
+            <p><textarea class="field" style="height:25vh;" name="message" name="message" /></textarea></p>
+            <p> <input class="submit" type="submit" value="Submit"> </p>
+          </form>
+          <p class="confirmation">
+            Thanks! A carrier pigeon has been dispatched with your message.
+          </p>
+        </section>
+      </div>
+
+      <div class="alternatively">
+        <p>Alternatively you can</p>
+        <p>email: hello@zoecai.com</p>
+        <p> </p>
+        <p>Or find me at:</p>
+        <p>
+          <div class="social">
+            <a href="http://nz.linkedin.com/in/zoecai"><img class="socialIcon" src="/resources/linkedin.png" alt="LinkedIn"/></a>
+            <a href="https://twitter.com/zoercai"><img class="socialIcon" src="/resources/twitter.png" alt="Twitter"/></a>
+            <a href="http://github.com/zoercai"><img class="socialIcon" src="/resources/github-2.png" alt="Github"/><br/></a>
+            <a href="https://www.behance.net/zoesque"><img class="socialIcon" src="/resources/behance.png" alt="Behance"/></a>
+            <a href="http://www.flickr.com/photos/zoesque"><img class="socialIcon" src="/resources/flickr.png" alt="Flickr"/></a>
+            <a href="http://instagram.com/zoesque"><img class="socialIcon" src="/resources/instagram.png" alt="Instagram"/></a>
+          </div>
+        </p>
+
+
+      </div>
+
+    </div>
+
+    <a href="#" class="back-to-top">Back to Top</a>
+
+    <script>
+      $(document).ready(function(){
+        $('.bxslider').bxSlider({
+          auto:true,
+          autoControls:true,
+          captions:true
+        });
+
+
+
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+      });
+
+      jQuery(document).ready(function() {
+        var offset = 220;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+          if (jQuery(this).scrollTop() > offset) {
             jQuery('.back-to-top').fadeIn(duration);
-        } else {
+          } else {
             jQuery('.back-to-top').fadeOut(duration);
-        }
-    });
-    
-    jQuery('.back-to-top').click(function(event) {
-        event.preventDefault();
-        jQuery('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-});
+          }
+        });
+
+        jQuery('.back-to-top').click(function(event) {
+          event.preventDefault();
+          jQuery('html, body').animate({scrollTop: 0}, duration);
+          return false;
+        })
+      });
 
 
-</script>
+    </script>
 
-</body>
-</html>
+  </body>
+  </html>

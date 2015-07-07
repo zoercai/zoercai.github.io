@@ -8,13 +8,13 @@
 
 // Our variables
 $base-font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
-$base-font-size:   1em;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 2;
+$base-line-height: 32px;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #202425;
 $background-color: #f5ece7;
 $brand-color:      #01b170;
 
@@ -25,8 +25,6 @@ $grey-color-dark:  darken($grey-color, 25%);
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
-
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
@@ -34,6 +32,7 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
 	@media screen and (max-width: $device) {
 		@content;
