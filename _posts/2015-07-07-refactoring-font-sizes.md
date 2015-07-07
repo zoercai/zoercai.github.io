@@ -9,20 +9,20 @@ comments: true
 
 Back from exams! So now picking up where I left off with this website. And what better way to refamiliarize myself with the structure and code of the site than to refactor? Below are notes for the site structure for my own future reference.
 
-###There are two views:
+##There are two views:
 1. **/index.html** acts as the front page of the website, and
 2. **/_layouts/blog.html** displays the content in detail
  
 
 
-####/index.html
+###/index.html
 uses its own stylesheet /css/styles.scss. It includes two other parts:
 * /inludes/post_detail.html, which contains code for how the "Blog" section of the front page displays the latest post.
 * /includes/project_slideshow.html, which contains the slideshow for the projects in the Projects section.
 
  
 
-####/_layouts/blog.html
+###/_layouts/blog.html
 Acts as a skeleton for all blog-display-style pages, including: 
 * blog post listings, project listings: which use the blog layout directly
 * individual blog posts, and individual projects: which use /_layouts/post.html, which then uses the blog layout
