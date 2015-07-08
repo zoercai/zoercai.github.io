@@ -35,7 +35,7 @@ As these were quite specific requirements, it was easy to filter down the laptop
 These are the laptops I narrowed down:
 
 
-<table style="width:100%;">
+<table>
   <tr>
     <th>Model</th>
     <th>Price</th>

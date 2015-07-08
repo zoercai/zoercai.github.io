@@ -13,6 +13,17 @@ header.sidebar{
 	padding-top: 15vh;
 	text-align: center;
     font-size: 1rem;
+
+
+    @include media-query($on-laptop) {
+        width: 100%;
+        display: block;
+        padding-bottom: 10vh;
+        height: auto;
+        position: relative;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        border-right: 0;
+    }
 }
 
 .site-title {
@@ -28,15 +39,10 @@ header.sidebar{
 }
 
 .site-nav {
-
     .page-link {
         color: #202425;
         line-height: $base-line-height;
 		display: block;
-        
-    }
-
-    @include media-query($on-palm) {
         
     }
 }

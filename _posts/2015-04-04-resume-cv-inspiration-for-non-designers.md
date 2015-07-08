@@ -32,23 +32,23 @@ And that's where this post comes in (and where I finally get to the point). Belo
 <h2>Resume Inspiration</h2>
 
 
-<img src="/../resources/blogImages/resume1.jpg" style="height:80vh;width:auto;padding:10px;" />
-<img src="/../resources/blogImages/resume2.jpg" style="height:80vh;width:auto;padding:10px;" />
-<img src="/../resources/blogImages/resume3.jpg" style="height:80vh;width:auto;padding:10px;" />
-<a href="http://robandlauren.com/2008/12/23/my-old-resume-makes-the-top-10-most-beautiful-resumes-of-2008/"><img src="/../resources/blogImages/resume4.jpg" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="https://www.behance.net/gallery/3835237/Self-Promo"><img src="https://m1.behance.net/rendition/modules/29851497/disp/936c6fad650be423382dd5bd3b4b7090.jpg" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://www.christinacardosa.com/about/"><img src="/../resources/blogImages/resume5.jpg" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://www.mollynix.com/resume.pdf"><img src="/../resources/blogImages/resume6.jpg" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://jessicasuhr.com/2012/01/23/resume-design-services/"><img src="/../resources/blogImages/resume7.jpg" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://jessicasuhr.com/2012/01/23/resume-design-services/"><img src="/../resources/blogImages/resume8.jpg" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://artbycruz.com/"><img src="http://31.media.tumblr.com/tumblr_lw7s34KzT81qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://johnjcuster.com/"><img src="http://33.media.tumblr.com/tumblr_lw7mytBu2O1qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://jcolt.com/"><img src="http://38.media.tumblr.com/tumblr_lqnql9d8yg1qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://www.richlikecream.com/"><img src="http://38.media.tumblr.com/tumblr_lqdzr0bo671qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://garrettolingerdesign.com/"><img src="http://31.media.tumblr.com/tumblr_lmw9evNEwq1qhv8x1o1_r1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://johnjcuster.com/"><img src="http://38.media.tumblr.com/tumblr_lw7m3y7YbU1qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://welcomebrand.co.uk/"><img src="http://38.media.tumblr.com/tumblr_ll56m4LbL81qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
-<a href="http://andreinacarrillo.com/"><img src="http://33.media.tumblr.com/tumblr_lk7ouchygV1qhv8x1o1_1280.gif" style="height:80vh;width:auto;padding:10px;" /></a>
+<img src="/../resources/blogImages/resume1.jpg" style="padding:10px;" />
+<img src="/../resources/blogImages/resume2.jpg" style="padding:10px;" />
+<img src="/../resources/blogImages/resume3.jpg" style="padding:10px;" />
+<a href="http://robandlauren.com/2008/12/23/my-old-resume-makes-the-top-10-most-beautiful-resumes-of-2008/"><img src="/../resources/blogImages/resume4.jpg" style="padding:10px;" /></a>
+<a href="https://www.behance.net/gallery/3835237/Self-Promo"><img src="https://m1.behance.net/rendition/modules/29851497/disp/936c6fad650be423382dd5bd3b4b7090.jpg" style="padding:10px;" /></a>
+<a href="http://www.christinacardosa.com/about/"><img src="/../resources/blogImages/resume5.jpg" style="padding:10px;" /></a>
+<a href="http://www.mollynix.com/resume.pdf"><img src="/../resources/blogImages/resume6.jpg" style="padding:10px;" /></a>
+<a href="http://jessicasuhr.com/2012/01/23/resume-design-services/"><img src="/../resources/blogImages/resume7.jpg" style="padding:10px;" /></a>
+<a href="http://jessicasuhr.com/2012/01/23/resume-design-services/"><img src="/../resources/blogImages/resume8.jpg" style="padding:10px;" /></a>
+<a href="http://artbycruz.com/"><img src="http://31.media.tumblr.com/tumblr_lw7s34KzT81qhv8x1o1_1280.gif" style="padding:10px;" /></a>
+<a href="http://johnjcuster.com/"><img src="http://33.media.tumblr.com/tumblr_lw7mytBu2O1qhv8x1o1_1280.gif" style="padding:10px;" /></a>
+<a href="http://jcolt.com/"><img src="http://38.media.tumblr.com/tumblr_lqnql9d8yg1qhv8x1o1_1280.gif" style="padding:10px;" /></a>
+<a href="http://www.richlikecream.com/"><img src="http://38.media.tumblr.com/tumblr_lqdzr0bo671qhv8x1o1_1280.gif" style="padding:10px;" /></a>
+<a href="http://garrettolingerdesign.com/"><img src="http://31.media.tumblr.com/tumblr_lmw9evNEwq1qhv8x1o1_r1_1280.gif" style="padding:10px;" /></a>
+<a href="http://johnjcuster.com/"><img src="http://38.media.tumblr.com/tumblr_lw7m3y7YbU1qhv8x1o1_1280.gif" style="padding:10px;" /></a>
+<a href="http://welcomebrand.co.uk/"><img src="http://38.media.tumblr.com/tumblr_ll56m4LbL81qhv8x1o1_1280.gif" style="padding:10px;" /></a>
+<a href="http://andreinacarrillo.com/"><img src="http://33.media.tumblr.com/tumblr_lk7ouchygV1qhv8x1o1_1280.gif" style="padding:10px;" /></a>
 
 
 <h2>Fonts</h2>
