@@ -30,7 +30,7 @@ body {
   color:$text-color;
 }
 
-a{
+*{
   -o-transition: $transition-time;
   -ms-transition: $transition-time;
   -moz-transition: $transition-time;
@@ -163,13 +163,14 @@ header {
   font-size: 1rem;
   padding: 5vh 10% 10vh 10%;
   overflow: hidden;
-  text-align: right;
+  text-align: left;
+  position: relative;
 
   .title{
     font-size: 5em;
     font-family: 'Tangerine';
-    margin:0px;
-    text-align: right;
+    margin-bottom: 0;
+    text-align: left;
   }
 
   a{
@@ -178,8 +179,20 @@ header {
   }
 
   .blog-index{
+    width: 100%;
+    display: inline-block;
+    float: left;
+
     h1{
       font-size: 1.2em;
+    }
+
+    h2{
+      font-size: 1.1em;
+    }
+
+    h3, h4{
+      font-size: 1em;
     }
 
     .entry-content{
@@ -187,7 +200,6 @@ header {
       height:45vh;
       width: 100%;
       overflow: hidden;
-      text-align: right;
       margin-left: auto;
     }
 
@@ -211,10 +223,9 @@ header {
   vertical-align: top;
 
   .title{
-    position: relative;
     font-size: 5em;
     font-family: 'Tangerine';
-    margin: 0;
+    margin-bottom: 0;
     text-align: left;
   }
 
@@ -232,7 +243,7 @@ header {
   }
 
   .field{
-    font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+    font-family: $base-font-family;
     width: 100%;
     background-color: $background-color;
     color: $text-color;
@@ -251,11 +262,6 @@ header {
     text-decoration: none;
     font-size: 1em;
     float: right;
-    -o-transition:.8s;
-    -ms-transition:.8s;
-    -moz-transition:.8s;
-    -webkit-transition:.8s;
-    transition:.8s;
   }
 
   .submit:hover {
@@ -317,19 +323,7 @@ header {
 }
 
 
-
-
-
-// Not Done Yet
-
-@media only screen and (max-width: 950px) {
-  .featureImage{
-    display:none;
-    visibility: hidden;
-  }
-  .entry-content{
-    width: 100%;
-  }
+@media only screen and (max-width: 950px) and (min-width: 650px) {
   .contact .formLabels .formLabel {
     margin-bottom: 30px;
   }
@@ -338,7 +332,7 @@ header {
     top: 30px;
   }
   .contact .field {
-    margin-bottom: 11px;
+    margin-bottom: 15px;
     position: relative;
     top: 22px;
   }
@@ -346,94 +340,33 @@ header {
     padding-left:0;
     margin-left:0;
     position:relative;
-    left:-5%;
-  }
-  .motto{ 
-    font-size:2.5em;
-  }
-  .about h1{
-    font-size:4em;
-    padding-top: 1em;
+    left:-6%;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .featureImage{
-    display:none;
-    visibility: hidden;
-  }
-  .entry-content{
-    width: 100%;
-  }
-  .contact .formLabels .formLabel {
-    margin-bottom: 30px;
-  }
-  .contact .alternatively{
-    position: relative;
-    top: 30px;
-  }
-  .contact .field {
-    margin-bottom: 11px;
-    position: relative;
-    top: 22px;
-  }
-  .contact .formFields{
-    padding-left:0;
-    margin-left:0;
-    position:relative;
-    left:-5%;
-  }
-  .motto{ 
-    font-size:2em;
-  }
-  .about h1{
-    font-size:4em;
-  }
-}
 
 @media only screen and (max-width: 650px) {
-  .featureImage{
-    display:none;
-    visibility: hidden;
-  }
-  .entry-content{
-    width: 100%;
-  }
   .contact .formLabels .formLabel {
-    margin-bottom: 30px;
-  }
-  .contact .alternatively{
-    position: relative;
-    top: 30px;
-  }
-  .contact .field {
-    margin-bottom: 11px;
-    position: relative;
-    top: 22px;
+    margin-bottom: $spacing-unit*1.5;
   }
   .contact .formFields{
+    width: 93%;
     padding-left:0;
     margin-left:0;
     position:relative;
-    left:-5%;
+    left:-6%;
   }
-  .motto{ 
-    font-size: 1.5em;
-    line-height: 2.5em;
+  .contact .field {
+    margin-bottom: $spacing-unit;
+    position: relative;
+    top: 22px;
   }
-  .motto strong{
-    display:block;
+  .contact .submit{
+    width: 100%;
   }
-  .about h1{
-    font-size:3em;
-  }
-  .nav {
-    font-size: 0.8em;
-  }
-  p{
-    font-size:0.8em;
-  }
-  ul {
-    font-size:0.8em;
+  .contact .alternatively{
+    margin-top: $spacing-unit*2;
+    display: block;
+    float: none;
   }
 }
