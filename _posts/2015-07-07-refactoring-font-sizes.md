@@ -45,7 +45,7 @@ It includes:
 
 Turns out the code didn't need much refactoring after all. I did find several unused files which I will delete, but the rest of the code is pretty organised.
 
-<blockquote>Now on to readjusting the font sizes.</blockquote>
+Now on to readjusting the font sizes.
 
 The plan is to follow the idea by [CSS Tricks here](https://css-tricks.com/rems-ems/). Using px as the root font size, and rem for the individual components such as blog post containers, and finally em for the different headings and paragraphs within the containers.
 
