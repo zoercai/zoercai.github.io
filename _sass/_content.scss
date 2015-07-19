@@ -8,14 +8,14 @@
         display: block;
     }
 
-	div.wrapper{
-		width: 80%;
-		margin: auto;
-		padding-top: 15vh;
+    div.wrapper{
+      width: 80%;
+      margin: auto;
+      padding-top: 15vh;
 
-        @include media-query($on-laptop) {
-            padding-top: 10vh;
-        }
+      @include media-query($on-laptop) {
+        padding-top: 10vh;
+    }
 
 
         // For the project listings page
@@ -27,28 +27,28 @@
 
 
         //For the blog listings and blog post pages
-		section{
-			background: white;
-			margin-bottom:10vh;
-            padding: 10%;
-            border: 1px solid rgba(0, 0, 0, 0.15);
-        }
+        section{
+         background: white;
+         margin-bottom:10vh;
+         padding: 10%;
+         border: 1px solid rgba(0, 0, 0, 0.15);
+     }
 
-        section.post{
-            padding: 0;
+     section.post{
+        padding: 0;
 
-            @include media-query($on-laptop){
-                font-size: 0.8rem;
-                line-height: 1.5rem;
-            }
+        @include media-query($on-laptop){
+            font-size: 0.8rem;
+            line-height: 1.5rem;
         }
     }
+}
 }
 
 /**
  * Inside .post
  */
-.post-title {
+ .post-title {
     font-size: 2.2em;
     line-height: 1.5em;
     margin-left: 10%;
@@ -90,16 +90,16 @@
 
     table{
         width: 100%;
-    }
 
-    @include media-query($on-palm) {
-        table {
+        @include media-query($on-palm) {
             overflow-x: auto;
             display: block;
         }
     }
+
+    
 }
- 
+
 
 div.wrapper section.post .meta{
     font-size: 0.8em;

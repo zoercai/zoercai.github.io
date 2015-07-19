@@ -2,7 +2,26 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+
+    <a class="site-title" href="{{ site.baseurl }}/">
+        <img class="logo" src="/resources/logo.png" />
+    </a>
+    
+    <a class="expandArrow">&#x25BC;</a>
+
+    <script>
+        $(".expandArrow").click(function(e) {
+            if($(".site-nav").is(":visible")){
+                $(".expandArrow").html("&#x25BC;");
+            } else{
+                $(".expandArrow").html("&#x25B2;");
+            }
+            
+            $(".site-nav").slideToggle();
+            $(".about").slideToggle();
+        });
+    </script>
 
     <nav class="site-nav">
 
@@ -17,6 +36,21 @@
       
 
     </nav>
+
+    <div class="about">
+        <a href="http://nz.linkedin.com/in/zoecai"><img class="socialIcon" src="/resources/linkedinDark.png" alt="LinkedIn"/></a>
+        <a href="https://twitter.com/zoercai"><img class="socialIcon" src="/resources/twitterDark.png" alt="Twitter"/></a>
+        <a href="http://github.com/zoercai"><img class="socialIcon" src="/resources/github-2Dark.png" alt="Github"/></a>
+        <a href="https://www.behance.net/zoesque"><img class="socialIcon" src="/resources/behanceDark.png" alt="Behance"/></a>
+        <a href="http://www.flickr.com/photos/zoesque"><img class="socialIcon" src="/resources/flickrDark.png" alt="Flickr"/></a>
+        <a href="http://instagram.com/zoesque"><img class="socialIcon" src="/resources/instagramDark.png" alt="Instagram"/></a>
+
+        <div class="aboutme">
+            {{ site.description }}
+        </div>
+    </div>
+
+    
 
   </div>
 </header>
