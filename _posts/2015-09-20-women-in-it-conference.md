@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Women in IT Conference"
-permalink: /blog/site-revamp
+permalink: /blog/women-in-it-conference
 date:   2015-09-20 21:46:48
 categories: event
 tags: women in IT conference notes summary report
