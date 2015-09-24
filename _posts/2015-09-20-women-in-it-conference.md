@@ -16,11 +16,11 @@ The workshop which generated the most impact was Ruth Donde’s ‘A brain-based
 
 The solution was all about removing fear and emphasising rewards, as well as focusing on solutions instead of problems. Here are the five ways to reduce stress and improve efficiency:
 
-Connectedness: having a “best friend” at work to talk to can make successes feel more rewarding and obstacles less challenging. Letting it out reduces stress. So encourage others to socialise and form relationships at work.
-Choice: create choice within constraints. This was the most helpful point. An example Ruth gave was arranging a meeting. If a meeting must be scheduled today, give the other person the choice of meeting time and location.
-Certainty: take the guesswork out of the equation to remove stress.
-Continuous Progress: give a sense of continuous small gains. It was found that verbal recognition is valued higher than financial, so small encouragements and celebrations matter a lot!
-Contribution: having meaning and purpose is important to most people when working on something. Let them know that they’re doing things that matter.
+* **Connectedness**: having a “best friend” at work to talk to can make successes feel more rewarding and obstacles less challenging. Letting it out reduces stress. So encourage others to socialise and form relationships at work.
+* **Choice**: create choice within constraints. This was the most helpful point. An example Ruth gave was arranging a meeting. If a meeting must be scheduled today, give the other person the choice of meeting time and location.
+* **Certainty**: take the guesswork out of the equation to remove stress.
+* **Continuous Progress**: give a sense of continuous small gains. It was found that verbal recognition is valued higher than financial, so small encouragements and celebrations matter a lot!
+* **Contribution**: having meaning and purpose is important to most people when working on something. Let them know that they’re doing things that matter.
 
 Another important fact Ruth spoke about was that when we think of an idea ourselves we spark an insight in our brain, which gives rise to ownership, making us want to do something with the idea. In the same way, giving others freedom to do things their own way to produce a predefined result can increase responsibility and ownership of work. 
 
