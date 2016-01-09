@@ -3,7 +3,7 @@ layout: post
 title: "Takeaway from 'Presentation Zen' by Garr Reynolds"
 permalink: /blog/presentation-zen
 date:   2016-01-08 14:46:48
-categories: book
+categories: reference
 tags: public speaking presentation zen summary takeaway
 comments: true
 published: true
@@ -80,6 +80,7 @@ Keep the slides simple, and never hand out copies of your slides.
 > Always keep the audience in mind by first keeping your talk as short as you can and still doing an effective job telling your story. After you have prepared your presentation, go back and edit like crazy, eliminating parts that are not absolutely crucial to your overall point or purpose of the talk. You must be ruthless. When in doubt, cut it out.
 
 
+
 ## Design
 
 ### Kanso, Shizen, Shibumi
@@ -88,7 +89,7 @@ Keep the slides simple, and never hand out copies of your slides.
 * **Shizen (Naturalness).** Do not use elaborate designs, do not over-refine, do not overplay. Include only what’s necessary to communicate the particular message for the particular audience.
 * **Shibumi (Elegance).** Elegant simplicity and articulate brevity, and understated elegance.
 
-> Japanese conceptualisation relegates elaborate ornamentation and viid colour usage to the bottom of the taste levels… excess requires no real thought or creativity. The highest level of taste moves beyond the usage of brilliant colours and heavy ornamentation to a simple and subdued refinement that is the beauty of shibumi, which represents the ultimate in good taste through conscious reserve. This is the original ‘less is more’ concept. Less colour – subdued and elegant usage of colour, less clutter…”
+> Japanese conceptualisation relegates elaborate ornamentation and vivid colour usage to the bottom of the taste levels. Excess requires no real thought or creativity. The highest level of taste moves beyond the usage of brilliant colours and heavy ornamentation to a simple and subdued refinement that is the beauty of shibumi, which represents the ultimate in good taste through conscious reserve. This is the original ‘less is more’ concept. Less colour - subdued and elegant usage of colour, less clutter.
 
 The Zen aesthetic values:
 
@@ -98,7 +99,7 @@ The Zen aesthetic values:
 * Suggestive rather than the descriptive or obvious
 * Naturalness (i.e., nothing artificial or forced)
 * Empty space
-* Stillness, tranquility
+* Stillness, tranquillity
 * Eliminating the nonessential
 
 ####The “Fish Story”
@@ -125,4 +126,103 @@ It is possible to be “too simple”. Your job is to find the balance most appr
 
 Communicate and design clearly with as little degradation to the message as possible. If the item can be removed without compromising the visual message, then strong consideration should be given to minimising the element or removing it altogether. E.g. lines in grids or tables can often be made quite thin, lightened, or even removed. And footers and logos, etc. can usually be removed with good results.
 
-![6a00d83451b64669e200e54f1e76828834-800wi]({{ site.baseurl }}/_uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg)
+![6a00d83451b64669e200e54f1e76828834-800wi]({{ site.baseurl }}/uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg){: width="45%"}
+![piechart]({{ site.baseurl }}/uploads/2016/01/piechart.jpg){: width="45%"}
+
+(Images and more info can be found on [the presentation zen blog](http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html))
+
+But some visuals could be included if they support the message at a more emotional level. As with all things, balance is important and the use of emotional elements depends on your particular circumstance, audience, and objectives.
+
+![h_bar2_2]({{ site.baseurl }}/uploads/2016/01/h_bar2_2.jpg)
+
+2D charts and graphs are almost always a better solution as 3-D charts appear less accurate and can be difficult to comprehend.
+
+##### Logos
+
+> If you are presenting for an organisation, try removing logos from all except the first and last slide. If you want people to learn something and remember you, then make a good, honest presentation. The logo won't help make a sell or make a point, but the clutter it brings does add unnecessary noise and makes the presentation visuals look like a commercial.
+
+##### How many bullet points for slide?
+
+> Use bullet points only very rarely and only after you have considered other options for displaying the information in a way that best supports your point visually.
+
+People will tire quickly if several slides of bulleted lists are shown one after another.
+
+![0006]({{ site.baseurl }}/uploads/2016/01/0006.jpg)
+
+#### Picture Superiority Effect
+
+> Ask yourself this: What information are you representing with the written word on a slide that you could replace with a photograph (or other appropriate image or graphic)?
+
+![original_72]({{ site.baseurl }}/uploads/2016/01/original_72.jpg)
+![woman_text]({{ site.baseurl }}/uploads/2016/01/woman_text.jpg)
+
+For inspiration: Jeff Brenman, the creator of Apollo Ideas, has a talent for combining images and text in a way that is fresh and effective for augmenting the presenter's messages.
+
+##### Quotes
+
+> Quotes can add credibility to your story and a simple quote is a good springboard from which you can launch your next topic or weave into your narrative to support your point. Remember, quotes should be short, in most cases, since it can become quite tedious when a presenter reads a paragraph from a screen.
+
+Considering placing the quote inside a larger photo rather than using a small photo or other element.
+
+![6a00d83451b64669e201a3fcdf317e970b-800wi]({{ site.baseurl }}/uploads/2016/01/6a00d83451b64669e201a3fcdf317e970b-800wi.jpg)
+
+#### Others
+
+* Empty Space
+* Contrast
+* Repetition
+* Alignment
+* Proximity
+
+
+## Delivery
+
+> Beyond mastering technique, the secret to swordsmanship rests in obtaining a proper mental state of “no mind” where the mind is “abandoned and yet not abandoned.” 
+
+* Practice and practice and practice. You will make it look easy and natural by preparing and practising like mad. The more you rehearse, the more confident you'll become, and the easier it will seem to the audience. 
+* However, though you must plan well, being fully in the moment also means that you remain flexible, totally aware, and open to the possibilities as they arise. When you put in the hard work in the preparation phase and internalise the material, you can perform your art – the art of presentation – in a way that is more natural by obtaining the proper state of mind, that is, “no mind”.
+* Mistakes may happen, but do not dwell on past mistakes or worry about future ones. Be only in this moment, sharing and conversing with the audience in front of you.
+
+> In playing a musical instrument such as the piano, for example, sometimes you play at it and sometimes you play in it. The goal is not to repeat the notes on a page but to play beautiful music. To be *in* it, not separate from it. Great musicians play in it (even if they are not always technically perfect). The same thing holds for presentations. The aim should be to be in it completely at that moment in time.
+
+### Presenting Under Fire
+
+> In my experience, when I have received challenging questions from a skeptical or even hostile or aggressive person, a natural, nonaggressive response form myself always proves more effective than showing any irritation or defensiveness. Butting heads is very easy to do, but usually leads to a sure defeat for the presenter.
+
+### Contribution & Being in the Moment
+
+> This is the moment – this is the most important moment right now. Which is: We are about contribution. That's what our job is. It's not about impressing people. It's not about getting the next job. It's about contributing something... Did you do it better than the next violinist, or did he do better than a pianist? I don't care, because in contribution, there is no better!" – Benjamin Zander
+
+Rather than asking questions such as "Will I be appreciated?" or "Will I win them over?", ask "How can I make a contribution?".
+
+### Passion, Risk, and "Playing on One Buttock"
+
+> Only through mistakes can you see where you're lacking, where you need to work. We hate mistakes, so we play it safe. Yet long term, nothing could be more dangerous if your goal is to be great at what you do... Instead of getting so dejected by mistakes, we should instead exclaim loudly, raising our arms (or to ourselves) "How fascinating!" every time we make a mistake. Think about that. Another mistake? How fascinating! Another opportunity to learn something just presented itself. Another unlucky break? No worries! Move forward. You cannot worry about mistakes and be fully present in the moment at the same time.
+> You can hold back, aim not to make an error and play it perfectly or you can say "Screw it! – I'll take a risk" and dare to learn into the music with intensity, colour, humanity, and passion.
+
+If your content is worth talking about, then bring energy and passion to your delivery. Every situation is different, but there is never an excuse for being dull.
+
+### Don't take yourself so seriously!
+
+> From birth we are concerned about measurement and worried about the perceived scarcity of love, attention, food, and so on that seems to be the way of the world. This is the "calculating self", and in this environment of scarcity, competition, and comparison "the self needs to be taken very seriously indeed." No matter how successful and confident you may become as an adult, your "calculating self" is weak and sees itself at risk of losing everything.
+> The goal, then, is to move away from the calculating self, the self that lives in a world of scarcity, exaggerated threats, and deficiencies, and move toward a healthier attitude of sufficiency, wholeness, and possibilities. Getting over yourself – and humour is a great vehicle for this – allows you to see the "creative nature of the world and ourselves." When you understand what an infant can't – that is, you cannot control the world, you cannot impose your will on people's hearts – you begin to get over yourself. When you learn to lighten up, you see yourself as permeable, not vulnerable, and you stay open to the unknown and to new influences, new ideas. Rather than trying to resist and fight the river of life, you move through it with a harmonious fluidity and grace, learning to join rather than resist the flow. Humour is a wonderful way to remind everyone around us – no matter how hard the work gets – that our true and most "central" self is not obsessed with childish demands, entitlements, and calculations but is instead supportive, confident, helpful, and even inspiring. A presentation is as good a time as any to let people see that side of you.
+
+
+## Connecting with the Audience
+
+### One secret to a healthy life (and a great presentation): eat until 80% full
+
+No matter how much time you are given, never ever go over time, and in fact finish a bit before your allotted time is up. Try to shoot for 90–95% of your allotted time. No one will complain. The problem with most presentations is that they are too long, not that they are too short.
+
+Leave them just a little hungry (for more)
+
+End on a high note, give them high quality – the highest you can – but do not give them so much quantity that you leave them with their heads spinning and guts aching.
+
+### Remove barriers to communication
+
+* Don't present from behind a lectern
+* Keep the lights on; the audience must always be able to see you
+* Use a small remote with basic features to advance slides
+
+
+Summarised from ['Presentation Zen'](http://www.amazon.com/gp/product/0321811984?ie=UTF8&camp=1789&creativeASIN=0321811984&linkCode=xm2&tag=presentatio00-20) by Garr Reynolds.
