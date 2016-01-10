@@ -55,6 +55,12 @@
     margin-right: 10%;
     margin-top: 10%;
     margin-bottom: $spacing-unit;
+
+    font: bold 34px "Century Schoolbook", Georgia, Times, serif;
+    color: #333;
+    line-height: 90%;
+    // margin: .2em 0 .4em 0;
+    letter-spacing: -2px;
 }
 
 .post-content {
@@ -67,11 +73,22 @@
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        padding-top: $spacing-unit;
+        padding-bottom: $spacing-unit/3*2;
+
+        font-family: Georgia, "Times New Roman", Times, serif;
+        // font-size:24px;
+    margin-top: 5px; margin-bottom: 0px;
+    // text-align: center;
+        font-weight: normal;
+        color: #222;
     }
 
     h2 {
         font-size: 1.2em;
+        padding-top: $spacing-unit/3*2;
 
         // @include media-query($on-laptop) {
         //     font-size: 28px;
@@ -131,3 +148,4 @@ div.wrapper section.post .meta{
         }
     }
 }
+
