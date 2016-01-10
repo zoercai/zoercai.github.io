@@ -67,6 +67,10 @@
         -webkit-font-smoothing: antialiased !important;
     }
 
+    strong {
+        font-weight: bold;
+    }
+
     /**
      * Set `margin-bottom` to maintain vertical rhythm
      */
@@ -169,7 +173,7 @@
         text-align:center;
         margin: 40px auto;
         text-transform: lowercase;
-        line-height: 145%;
+        line-height: 150%;
         font-variant: small-caps;
             }
 
