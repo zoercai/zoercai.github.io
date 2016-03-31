@@ -40,7 +40,7 @@ published: true
 > Imagine this is the situation: You have been scheduled to pitch a new idea to the head of product marketing at your company, one of the leading technology manufactures in the world. Both schedules and budgets are tight; this is an extremely important opportunity for you if you are to succeed at getting the OK from the executive team. When you arrive at the admin desk outside the vice-president's office, suddenly she comes out with her coat and briefcase in hand and says, "... sorry, something's come up, give me your idea as we walk down to my car..." Could you sell your idea in the elevator ride and the walk to the parking lot?
 
 ## Handouts can set you free
-> If you create a proper handout as a leave-behind fro your presentation during the preparation phase, then you will not feel compelled to say everything about your topic in your talk.
+> If you create a proper handout as a leave-behind for your presentation during the preparation phase, then you will not feel compelled to say everything about your topic in your talk.
 
 Keep the slides simple, and never hand out copies of your slides.
 

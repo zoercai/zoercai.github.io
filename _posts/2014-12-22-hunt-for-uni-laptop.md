@@ -10,6 +10,7 @@ image:
   feature: https://farm2.staticflickr.com/1346/5119057458_d7ae2bf9d6_o.jpg
   creditName: blakespot
   credit: https://www.flickr.com/photos/blakespot/5119057458/sizes/o/
+published: false
 ---
 
 After seeing the brand new Acer S7 my friend got her mum to bring home from America, alongside the equally thin, beautiful, and powerful ultrabooks displayed alongside by others in our study/social group, I finally caved in. I needed a new laptop.
