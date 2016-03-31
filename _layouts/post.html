@@ -1,32 +1,55 @@
 ---
-layout: blog
+layout: base
 ---
 
-<section class="post">
+<!-- TODO -->
+<link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
 
-  <h1 class="post-title">{{ page.title }}</h1>
+</head>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+<body>
 
-  <section class="meta">
-    <p>
-      <span class="meta-attribute"><img class="icons" src="/resources/category.svg"> {{ page.categories }} </span>
-      <!-- <span class="meta-attribute"><img class="icons" src="/resources/date.svg"> {{ page.date | date: "%-d %B %Y" }} </span> -->
-    </p>
-  </section>
+<div class = "wrap">
 
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+  <article>
+    <hgroup class="title-section">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <h2 class="intro">{{page.description}}</h2>
+      <dl>
+        <dt>Category</dt>
+        <dd>{{page.category}}</dd>
+        <dt>Tags</dt>
+        <dd>
+        {% for tag in page.tags %}
+          {{ tag }} • 
+        {% endfor %}
+        </dd>
+        <dt>Date</dt>
+        <dd>{{page.date | date: "%-d %B %Y" }}</dd>
+      </dl>
+    </hgroup>
+    
+    {% if page.image %}
+    <figure class="main-img">
+      <img id="feature-image" src="{{page.image.feature}}">
+      <figcaption>{{page.image.description}} • Image credit: <a href="page.image.credit}}">{{page.image.creditName}}</a></figcaption>
+    </figure>
+    {% endif %}
 
-</section>
+    <main>
+      {{ content }}
+    </main>
 
+    <aside class="share">
+      Share this
+    </aside>
 
-<section>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    <section>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'zoecai'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -37,8 +60,14 @@ layout: blog
         })();
       </script>
       <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
     </script>
+  </section>
+</article>
 
-</section>
 
+  
+
+</div>
+</body>
+
+</html>

@@ -1,9 +1,15 @@
 ---
 layout: post
-title: "Takeaway from 'Presentation Zen' by Garr Reynolds"
+title: "Takeaway from Presentation Zen"
+description: My notes of the book by Garr Reynolds
+image:
+  feature: https://farm2.staticflickr.com/1346/5119057458_d7ae2bf9d6_o.jpg
+  description: Image description here
+  creditName: blakespot
+  credit: https://www.flickr.com/photos/blakespot/5119057458/sizes/o/
 permalink: /blog/presentation-zen
 date:   2016-01-08 14:46:48
-categories: reference
+category: reference
 tags: public speaking presentation zen summary takeaway
 comments: true
 published: true
@@ -124,18 +130,28 @@ It is possible to be “too simple”. Your job is to find the balance most appr
 
 ## Signal vs Noise Ratio
 
+{% include postImage.html
+    img="uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg"
+    title="signal vs noise ratio example" %}
+
+<!-- {% include postImage.html
+    img="uploads/2016/01/piechart.jpg"
+    title="signal vs noise ratio example"
+    caption="signal vs noise ratio example, more can be found from source"
+    creditName="Presentation Zen blog"
+    credit="http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html" %} -->
+
 Communicate and design clearly with as little degradation to the message as possible. If the item can be removed without compromising the visual message, then strong consideration should be given to minimising the element or removing it altogether. E.g. lines in grids or tables can often be made quite thin, lightened, or even removed. And footers and logos, etc. can usually be removed with good results.
-
-![6a00d83451b64669e200e54f1e76828834-800wi]({{ site.baseurl }}/uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg){: width="45%"}
-![piechart]({{ site.baseurl }}/uploads/2016/01/piechart.jpg){: width="45%"}
-
-(Images and more info can be found on [the presentation zen blog](http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html))
 
 But some visuals could be included if they support the message at a more emotional level. As with all things, balance is important and the use of emotional elements depends on your particular circumstance, audience, and objectives.
 
-![h_bar2_2]({{ site.baseurl }}/uploads/2016/01/h_bar2_2.jpg)
-
 2D charts and graphs are almost always a better solution as 3-D charts appear less accurate and can be difficult to comprehend.
+
+{% include postImage.html
+    img="uploads/2016/01/h_bar2_2.jpg"
+    title="good visuals example"
+    creditName="Presentation Zen blog"
+    credit="http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html" %}
 
 ### Logos
 

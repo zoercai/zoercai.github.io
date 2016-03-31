@@ -1,0 +1,110 @@
+/* New Base */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+// End of CSS Reset
+
+$base-font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+$base-font-size:   18px;
+$base-line-height: 1.35;
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
+
+p,li,blockquote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 120%;
+    margin-bottom: 0.4em;
+    margin-top: 1.4em;
+}
+
+h2 {
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+blockquote {
+    font-style: italic;
+    margin-left: 3.1em;
+
+    p {
+        display: inline;
+    }
+}
+
+blockquote:before {
+    margin: 0 0 0 -0.5em;
+    content: '“';
+}
+
+blockquote:after {
+    content: '”';
+}
+
+li{
+    margin-left: 1.6em;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+li:before {
+    content: '—';
+    padding-right: .5em;
+}
+
