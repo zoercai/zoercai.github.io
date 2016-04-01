@@ -1,0 +1,132 @@
+---
+---
+
+@import
+"newBase";
+
+main{
+	// top: 15em;
+	position: relative;
+	max-width: 1280px;
+	margin: 0 10em;
+	padding: 0 0 5rem 0;
+	overflow: hidden;
+
+	#latest-post{
+		position: relative;
+		display: -webkit-flex;
+  		display: -ms-flexbox;
+  		display: flex;
+  		overflow: hidden;
+  		margin-bottom: $section-space * 2;
+		
+	    figure#feature-image{
+	    	flex: $section-big;
+	    	float: left;
+	   		margin: 0 $section-space $section-space 0;
+	    	width: $section-big;
+	    }
+	    
+	    #latest{
+	    	flex: $section-small;
+	    	display: inline-block;
+	    	width: $section-small;
+	    	border-top: 8px solid $accent-colour;
+	    	margin-bottom: $section-space;
+	    	// min-height: 25em;
+
+	    	#latest-date{
+	    		font-size: 0.7em;
+	    		font-family: $heading-font-family;
+	    		color: $accent-colour;
+	    		font-weight: bold;
+	    	}
+
+	    	h1{
+		    	font-size: 2em;
+		    	color: $accent-colour;
+	    		margin: 0.5em 0 0.5em 0;
+	    		line-height: 1.2;
+	    	}
+
+	    	#latest-excerpt{
+				// font-size: 0.8em;
+	    	}
+
+	    	.read-more{
+	    		position: absolute;
+    			bottom: 0;
+	    		text-decoration: none;
+	    		font-size: 0.8em;
+	    		font-weight: bold;
+	    		font-family: $heading-font-family;
+	    		border-bottom: 1px solid $accent-colour;
+    			padding-bottom: .25em;
+    			margin-bottom: $section-space;
+	    	}
+	    }
+	}
+
+	#all-posts{
+		padding-top: $section-space;
+		position: relative;
+  		overflow: hidden;
+
+  		.post{
+  			min-height: 30em;
+			border-top: 8px solid $accent-colour;
+    		padding-top: 8px;
+    		float: left;
+    		width: 31.3%;
+		    position: relative;
+		    margin-bottom: $section-space;
+		    margin-left: $section-space;
+		    margin-right: 0;
+
+		    .post-thumb{
+		    	position: relative;
+				height: 10em;
+				overflow: hidden;
+		    }
+
+		    .post-title{
+		    	font-family: $heading-font-family;
+		    	font-size: 1.5em;
+		    	color: $accent-colour;
+	    		margin: 1em 0 0 0;
+	    		line-height: 1.2;
+	    		height: 2.5em;
+
+	    		a{
+	    			text-decoration: none;
+	    		}
+		    }
+
+		    .post-excerpt{
+				font-size: 0.9em;
+				height: 10em;
+				overflow: hidden;
+		    }
+
+		    .read-more{
+		    	width: 100%;
+	    		position: absolute;
+    			bottom: 0;
+	    		font-size: 0.8em;
+	    		font-weight: bold;
+	    		font-family: $heading-font-family;
+	    		border-bottom: 1px solid $accent-colour;
+    			padding-bottom: .25em;
+    			margin-bottom: $section-space;
+
+    			a{
+    				text-decoration: none;
+    			}
+	    	}
+  		}
+
+  		.post:nth-child(3n+1){
+  			margin-left: 0;
+  		}
+	}
+}

@@ -1,36 +1,70 @@
 ---
-layout: blog
-title: Blog
+layout: base
+title: Zoe Cai • Blog
 permalink: /blog/
 ---
-
-<!-- <div class="home"> -->
-
-  <!-- <h1 class="page-heading">Posts</h1> -->
   
-  {% for post in site.posts %}
-  <section class="post">
+  <link rel="stylesheet" href="{{ "/css/blog.css" | prepend: site.baseurl }}">
+</head>
 
-    <h1 class="post-title">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h1>
+<body>
+  <div class="wrap">
 
-    <article class="post-content">
-      {{ post.content }}
-      <!-- <p><a class="" href="{{ post.url | prepend: site.baseurl }}">Continue Reading</a></p> -->
-    </article>
+    <header>
+      <div class = "logo"><a href="{{site.url}}">Zoe Cai</a></div>
+    </header>
 
-    <section class="meta">
-      <p>
-        <span class="meta-attribute"><img class="icons" src="../../resources/category.svg"> {{ post.categories }} </span>
-        <!-- <span class="meta-attribute"> <img class="icons" src="../../resources/date.svg"> {{ post.date | date: "%-d %B %Y" }} </span> -->
-      </p>
-    </section>
+    <main>
+      <section id = "latest-post">
+        {% for post in site.posts limit:1 %}
 
-  </section>
-  {% endfor %}
+        
+        <figure id = "feature-image">
+          <a href="{{post.url}}">
+          <img src="{{post.image.feature}}">
+          </a>
+        </figure>
+
+        <section id = "latest">
+          <span id="latest-date">{{post.date | date: "%-d %B %Y" }}</span>
+          <h1><a href="{{post.url}}">{{post.title}}</a></h1>
+          <span id = "latest-excerpt">{{ post.excerpt }}</span>
+          <a class="read-more" href="{{post.url}}">→ Read More</a>
+        </section>
+        {% endfor %}
+      </section>
+
+      <section id = "all-posts">
+      {% for post in site.posts offset:1 %}
+        <section class="post">
+
+          <a href="{{post.url}}">
+          <figure class="post-thumb" style="background:url({% if post.image %}{{post.image.feature}}{% else %}/resources/vinesBg.png{% endif %}) no-repeat center center;background-size:cover">
+          </figure>
+          </a>
+
+          <h1 class="post-title" ><a href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a></h1>
+
+          <div class = "post-excerpt">
+            {{post.excerpt}}
+          </div>
+
+          <div class="read-more">
+            <a href="{{post.url}}">→ Read More</a>
+          </div>
+
+        </section>
+      {% endfor %}
+      </section>
+    </main>
+    
+
+  </div>
+</body>
+
+</html>
 
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<!-- </div> -->

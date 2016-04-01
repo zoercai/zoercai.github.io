@@ -1,13 +1,20 @@
 ---
 layout: post
-title: "Takeaway from 'Presentation Zen' by Garr Reynolds"
+title: "Presentation Zen"
+description: My notes of the book by Garr Reynolds
+image:
+  feature: https://images.unsplash.com/photo-1433439216031-9571132ce719?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=49689c50c8f3b8488b644bec64dc0f3c
+  creditName: Johnson Wang
+  credit: https://unsplash.com/photos/qG-hPxoAnRE
 permalink: /blog/presentation-zen
 date:   2016-01-08 14:46:48
-categories: reference
-tags: public speaking presentation zen summary takeaway
-comments: true
+category: reference
+tags: presentation book
+comments: false
 published: true
 ---
+
+The Presentation Zen approach declutters your presentation and makes you focus on what's important — effectively communicating the correct message to the audience. It doesn't have as much as one would expect to say about public speaking and delivery — you'll need to get a public speaking book or join a toastmaster club for that — but it does calm you down and teach you to craft your message and present it succinctly.
 
 # Preparation
 
@@ -122,20 +129,30 @@ It is possible to be “too simple”. Your job is to find the balance most appr
 
 ## Design Principles
 
-## Signal vs Noise Ratio
+### Signal vs Noise Ratio
+
+{% include postImage.html
+    img="uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg"
+    title="signal vs noise ratio example" %}
+
+<!-- {% include postImage.html
+    img="uploads/2016/01/piechart.jpg"
+    title="signal vs noise ratio example"
+    caption="signal vs noise ratio example, more can be found from source"
+    creditName="Presentation Zen blog"
+    credit="http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html" %} -->
 
 Communicate and design clearly with as little degradation to the message as possible. If the item can be removed without compromising the visual message, then strong consideration should be given to minimising the element or removing it altogether. E.g. lines in grids or tables can often be made quite thin, lightened, or even removed. And footers and logos, etc. can usually be removed with good results.
 
-![6a00d83451b64669e200e54f1e76828834-800wi]({{ site.baseurl }}/uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg){: width="45%"}
-![piechart]({{ site.baseurl }}/uploads/2016/01/piechart.jpg){: width="45%"}
-
-(Images and more info can be found on [the presentation zen blog](http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html))
-
 But some visuals could be included if they support the message at a more emotional level. As with all things, balance is important and the use of emotional elements depends on your particular circumstance, audience, and objectives.
 
-![h_bar2_2]({{ site.baseurl }}/uploads/2016/01/h_bar2_2.jpg)
-
 2D charts and graphs are almost always a better solution as 3-D charts appear less accurate and can be difficult to comprehend.
+
+{% include postImage.html
+    img="uploads/2016/01/h_bar2_2.jpg"
+    title="good visuals example"
+    creditName="Presentation Zen blog"
+    credit="http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html" %}
 
 ### Logos
 
@@ -147,14 +164,14 @@ But some visuals could be included if they support the message at a more emotion
 
 People will tire quickly if several slides of bulleted lists are shown one after another.
 
-![0006]({{ site.baseurl }}/uploads/2016/01/0006.jpg)
+![0006](images/0006.jpg)
 
 ## Picture Superiority Effect
 
 > Ask yourself this: What information are you representing with the written word on a slide that you could replace with a photograph (or other appropriate image or graphic)?
 
-![original_72]({{ site.baseurl }}/uploads/2016/01/original_72.jpg)
-![woman_text]({{ site.baseurl }}/uploads/2016/01/woman_text.jpg)
+![original_72](images/original_72.jpg)
+![woman_text](images/woman_text.jpg)
 
 For inspiration: Jeff Brenman, the creator of Apollo Ideas, has a talent for combining images and text in a way that is fresh and effective for augmenting the presenter's messages.
 
@@ -164,7 +181,7 @@ For inspiration: Jeff Brenman, the creator of Apollo Ideas, has a talent for com
 
 Considering placing the quote inside a larger photo rather than using a small photo or other element.
 
-![6a00d83451b64669e201a3fcdf317e970b-800wi]({{ site.baseurl }}/uploads/2016/01/6a00d83451b64669e201a3fcdf317e970b-800wi.jpg)
+![6a00d83451b64669e201a3fcdf317e970b-800wi](images/6a00d83451b64669e201a3fcdf317e970b-800wi.jpg)
 
 ## Others
 

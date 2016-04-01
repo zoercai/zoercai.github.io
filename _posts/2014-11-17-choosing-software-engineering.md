@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Should I Choose Software Engineering?"
-permalink: /blog/choosing-software-engineering
-date:   2014-11-17 21:03:48
-categories: university,career
-tags: software engineering specialization uoa university career
-comments: true
+title: "Software Engineering?"
+description: Answers to FAQ's from students considering studying a software engineering degree
 image:
   feature: https://farm4.staticflickr.com/3152/3060172795_1fdeb59422_o.jpg
   creditName: Rsms
   credit: https://www.flickr.com/photos/rsms/3060172795/sizes/o/
+permalink: /blog/choosing-software-engineering
+date:   2014-11-17 21:03:48
+category: university
+tags: software engineering degree university career uoa
+comments: false
+published: true
 ---
 
 Since posting on the [WEN Facebook group](https://www.facebook.com/groups/WENUoA/) offering to answer questions from first year engineering students on specialization choices, I’ve received quite a few queries. As [Scott Hanselman](http://www.hanselman.com/blog/scotthanselmanscompletelistofproductivitytips.aspx) said, “You have a finite number of keystrokes left in your hands before you die, “ the idea is that anything longer than 3-4 sentences should be published on a blog. Seeing as the replies I’ve been sending have been longer than 3-4 paragraphs, I thought now would probably be a suitable time to take Scott’s advice and save some of my keystrokes before I die. 

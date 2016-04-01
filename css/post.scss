@@ -1,0 +1,152 @@
+---
+---
+
+@import
+"newBase";
+
+/* Controls the post pages appearance */
+
+article {
+	// top: 15em;
+	position: relative;
+	max-width: 1280px;
+	margin: 0 10em;
+	padding: 0 0 5rem 0;
+	overflow: hidden;
+
+	.title-section {
+		font-family: $heading-font-family;
+		color: $accent-colour;
+		border-top: 8px solid $accent-colour;
+		float: left;
+	    margin: 0 $section-space $section-space 0;
+	    width: $section-small;
+
+	    .post-title {
+	    	font-weight: bold;
+	    	font-size: 2em;
+    		margin: 0.5em 0 0.5em 0;
+    		line-height: 1.2;
+	    }
+
+	    .intro {
+	    	font-weight: normal;
+	    	font-size: 1.3em;
+    		line-height: 1.2;
+    		text-transform: none;
+	    }
+
+	    dl {
+			font-size: 0.9em;
+
+	    	margin-top: 2.5em;
+
+	    	dt {
+	    		display: inline-block;
+	    		border-bottom: 2px solid $accent-colour;
+				margin-bottom: .25em;
+	    	}
+
+	    	dd {
+				display: block;
+	    	}
+
+	    	dt+dd {
+	    		padding-bottom: 1.5em;
+	    	}
+	    }
+	}
+}
+
+.main-img {
+	float: left;
+    margin: 0 0 $section-space 0;
+    width: $section-big;
+	position: relative;
+    padding-bottom: $section-space;
+
+    #feature-image{
+		width: 100%;
+    }
+
+    figcaption {
+		margin-left: $indent;
+		top: .5em;
+	}
+}
+
+main {
+	float: right;
+    margin: 0 0 $section-space 0;
+    width: $section-big;
+
+    .post-img {
+    	position: absolute;
+	    left: 0;
+	    max-width: 22.75%;
+	    height: auto;
+	    transition: max-width 500ms cubic-bezier(0.455,.03,.515,.955);
+
+	    img {
+	    	max-width: 100%;
+	    }
+
+	    figcaption {
+    		padding: 0 0 1em .25em;
+    	}
+    }
+}
+
+.share {
+	float: left;
+    margin: 0 $section-space $section-space 0;
+    width: $section-small;	
+}
+
+figcaption {
+    font-size: .8rem;
+    line-height: 1.1rem;
+    position: relative;
+    left: 0;
+    display: block;
+    color: gray;
+}
+
+nav{
+	margin: 0 10em;
+	max-width: 1280px;
+    border-top: 1px solid gray;
+	display: flex;
+    flex-wrap: nowrap;
+
+    a{
+	    color: $base-font-color;
+	    text-decoration: none;
+    }
+
+    div{
+    	padding: 1em 0 1.5em 0;
+    	display: block;
+    	flex-grow: 1;
+    }
+
+    div+div{
+    	border-left: 1px solid gray;
+    }
+
+    #nav-left{
+		padding-right: 1em;
+    }
+
+    #nav-center{
+    	padding-left: 0.5em;
+    	padding-right: 0.5em;
+    	text-align: center;
+    }
+
+    #nav-right{
+    	padding-left: 1em;
+    	text-align: right;
+    }
+}
+

@@ -1,11 +1,17 @@
 ---
 layout: post
-title: "On Vectors and Icon Fonts"
-permalink: /blog/vector-icon-fonts
+title: "Metadata Icons"
+description: What to use for symbols on the web
+image:
+  feature: https://images.unsplash.com/photo-1417551471850-924c48abad50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a527f7193b2c6ef81d7df3f16f709ca7
+  creditName: Paul Green
+  credit: https://unsplash.com/photos/gWFXgcH-LeU
+permalink: /blog/metadata-icons
 date:   2015-06-03 17:03:48
-categories: development,design
+category: "web design"
 tags: vector icons fonts
-comments: true
+comments: false
+published: true
 ---
 
 Updated the meta section for the posts today, as I wanted to use symbols in front of each meta text, I came across these two questions which I should have researched the answers to a long time ago.
