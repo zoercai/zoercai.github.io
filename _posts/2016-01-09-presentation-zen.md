@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Takeaway from Presentation Zen"
+title: "Presentation Zen"
 description: My notes of the book by Garr Reynolds
 image:
   feature: https://farm2.staticflickr.com/1346/5119057458_d7ae2bf9d6_o.jpg
@@ -10,8 +10,8 @@ image:
 permalink: /blog/presentation-zen
 date:   2016-01-08 14:46:48
 category: reference
-tags: public speaking presentation zen summary takeaway
-comments: true
+tags: presentation book
+comments: false
 published: true
 ---
 
@@ -128,7 +128,7 @@ It is possible to be “too simple”. Your job is to find the balance most appr
 
 ## Design Principles
 
-## Signal vs Noise Ratio
+### Signal vs Noise Ratio
 
 {% include postImage.html
     img="uploads/2016/01/6a00d83451b64669e200e54f1e76828834-800wi.jpg"

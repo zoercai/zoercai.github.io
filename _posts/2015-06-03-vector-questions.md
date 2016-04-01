@@ -3,9 +3,10 @@ layout: post
 title: "On Vectors and Icon Fonts"
 permalink: /blog/vector-icon-fonts
 date:   2015-06-03 17:03:48
-categories: development,design
+category: development,design
 tags: vector icons fonts
-comments: true
+comments: false
+published: true
 ---
 
 Updated the meta section for the posts today, as I wanted to use symbols in front of each meta text, I came across these two questions which I should have researched the answers to a long time ago.

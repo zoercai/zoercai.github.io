@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "Women in IT Conference"
+description: Highlights and notes from the conference
 permalink: /blog/women-in-it-conference
 date:   2015-09-20 21:46:48
-categories: event
-tags: women in IT conference notes summary report
-comments: true
+category: event
+tags: conference wie
+comments: false
+published: true
 ---
 
 The theme of this year’s Women in IT conference was “Connect, Empower, Inspire”, and the speakers and workshops achieved the three objectives perfectly. 

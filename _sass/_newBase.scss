@@ -51,14 +51,33 @@ table {
 
 // End of CSS Reset
 
-$base-font-family: 'Open Sans',"Helvetica Neue", Helvetica, 'Lato', sans-serif;
+
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,400italic,700,700italic);
+
+
+$accent-colour: #01b170;
+
+$base-font-family: 'Lora','Playfair Display', serif;
 $base-font-size:   18px;
-$base-line-height: 1.35;
+$base-font-color: black;
+$base-line-height: 1.6;
+
+$heading-font-family: 'Istok Web', sans-serif;
+
+$indent: 3em;
 
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 p,li,blockquote {
@@ -66,10 +85,19 @@ p,li,blockquote {
     margin-bottom: 1em;
 }
 
+strong{
+    font-weight: bold;
+}
+
+a {
+    color: $accent-colour;
+}
+
 h1 {
+    font-family: $heading-font-family;
     font-size: 120%;
-    margin-bottom: 0.4em;
-    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
 }
 
 h2 {
@@ -79,9 +107,14 @@ h2 {
     margin-top: 1em;
 }
 
+h3 {
+    font-size: 90%;
+    font-weight: bold;
+}
+
 blockquote {
     font-style: italic;
-    margin-left: 3.1em;
+    margin-left: $indent;
 
     p {
         display: inline;
@@ -98,9 +131,9 @@ blockquote:after {
 }
 
 li{
-    margin-left: 1.6em;
-    padding-left: 1.5em;
-    text-indent: -1.5em;
+    margin-left: $indent/2;
+    padding-left: $indent/2;
+    text-indent: -$indent/2;
 }
 
 li:before {

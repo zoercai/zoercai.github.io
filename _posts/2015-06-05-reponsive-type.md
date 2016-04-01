@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Responsive type, Github Issues, and the Problem with RSS Readers"
-<!-- permalink: /blog/ -->
+permalink: /blog/responsive-type
 date:   2015-06-05 19:03:48
 categories: development
 tags: Github issues responsive typography Chrome extensions Safari RSS read
-comments: true
+comments: false
+published: true
 ---
 
 #Responsive Typography
