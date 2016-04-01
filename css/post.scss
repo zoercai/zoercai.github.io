@@ -4,42 +4,7 @@
 @import
 "newBase";
 
-$section-left: 25%;
-$section-right: 97%-$section-left;
-$section-space: 3%;
-
 /* Controls the post pages appearance */
-
-.wrap {
-	max-width: 1360px;
-	margin: 0 auto;
-	height: auto;
-}
-
-header {
-	margin: 0 10em;
-	max-width: 1280px;
-    padding: 2em 0 4em;
-	
-	// font-family: $heading-font-family;
-
-	a{
-		color: $base-font-color;
-		text-decoration: none;
-	}
-
-	.logo{
-		display: inline-block;
-		font-size: 1.5em;
-		font-weight: bold;
-		word-spacing: -0.2em;
-	}
-
-	.nav-blog{
-		display: inline-block;
-		float: right;
-	}
-}
 
 article {
 	// top: 15em;
@@ -55,7 +20,7 @@ article {
 		border-top: 8px solid $accent-colour;
 		float: left;
 	    margin: 0 $section-space $section-space 0;
-	    width: $section-left;
+	    width: $section-small;
 
 	    .post-title {
 	    	font-weight: bold;
@@ -96,7 +61,7 @@ article {
 .main-img {
 	float: left;
     margin: 0 0 $section-space 0;
-    width: $section-right;
+    width: $section-big;
 	position: relative;
     padding-bottom: $section-space;
 
@@ -113,7 +78,7 @@ article {
 main {
 	float: right;
     margin: 0 0 $section-space 0;
-    width: $section-right;
+    width: $section-big;
 
     .post-img {
     	position: absolute;
@@ -135,7 +100,7 @@ main {
 .share {
 	float: left;
     margin: 0 $section-space $section-space 0;
-    width: $section-left;	
+    width: $section-small;	
 }
 
 figcaption {

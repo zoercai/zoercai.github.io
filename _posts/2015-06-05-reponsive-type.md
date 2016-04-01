@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Responsive type, Github Issues, and the Problem with RSS Readers"
+title: "Misc Notes #2"
 permalink: /blog/responsive-type
 date:   2015-06-05 19:03:48
 categories: development
