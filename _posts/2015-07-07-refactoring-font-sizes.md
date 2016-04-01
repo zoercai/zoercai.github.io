@@ -5,7 +5,7 @@ date:   2015-07-07 20:03:48
 categories: development
 tags: typography refactoring font sizes
 comments: false
-published: true
+published: false
 ---
 
 Back from exams! So now picking up where I left off with this website. And what better way to refamiliarize myself with the structure and code of the site than to refactor? Below are notes for the site structure for my own future reference.

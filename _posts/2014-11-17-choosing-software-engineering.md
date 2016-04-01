@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Software Engineering?"
-description: Answers to FAQ's from students considering entering a software engineering degree
-permalink: /blog/choosing-software-engineering
-date:   2014-11-17 21:03:48
-category: university
-tags: software engineering specialization uoa university career
-comments: true
+description: Answers to FAQ's from students considering studying a software engineering degree
 image:
   feature: https://farm4.staticflickr.com/3152/3060172795_1fdeb59422_o.jpg
   creditName: Rsms
   credit: https://www.flickr.com/photos/rsms/3060172795/sizes/o/
+permalink: /blog/choosing-software-engineering
+date:   2014-11-17 21:03:48
+category: university
+tags: software engineering degree university career uoa
+comments: false
 published: true
 ---
 

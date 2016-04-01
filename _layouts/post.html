@@ -35,7 +35,7 @@ layout: base
     {% if page.image %}
     <figure class="main-img">
       <img id="feature-image" src="{{page.image.feature}}">
-      <figcaption>{%if page.image.description%}{{page.image.description}} • {% endif %}Image credit: <a href="page.image.credit}}">{{page.image.creditName}}</a></figcaption>
+      <figcaption>{%if page.image.description%}{{page.image.description}} • {% endif %}Image credit: <a href="{{page.image.credit}}">{{page.image.creditName}}</a></figcaption>
     </figure>
     {% endif %}
 

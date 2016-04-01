@@ -3,10 +3,9 @@ layout: post
 title: "Presentation Zen"
 description: My notes of the book by Garr Reynolds
 image:
-  feature: https://farm2.staticflickr.com/1346/5119057458_d7ae2bf9d6_o.jpg
-  description: Image description here
-  creditName: blakespot
-  credit: https://www.flickr.com/photos/blakespot/5119057458/sizes/o/
+  feature: https://images.unsplash.com/photo-1433439216031-9571132ce719?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=49689c50c8f3b8488b644bec64dc0f3c
+  creditName: Johnson Wang
+  credit: https://unsplash.com/photos/qG-hPxoAnRE
 permalink: /blog/presentation-zen
 date:   2016-01-08 14:46:48
 category: reference
@@ -14,6 +13,8 @@ tags: presentation book
 comments: false
 published: true
 ---
+
+The Presentation Zen approach declutters your presentation and makes you focus on what's important — effectively communicating the correct message to the audience. It doesn't have as much as one would expect to say about public speaking and delivery — you'll need to get a public speaking book or join a toastmaster club for that — but it does calm you down and teach you to craft your message and present it succinctly.
 
 # Preparation
 
@@ -163,14 +164,14 @@ But some visuals could be included if they support the message at a more emotion
 
 People will tire quickly if several slides of bulleted lists are shown one after another.
 
-![0006]({{ site.baseurl }}/uploads/2016/01/0006.jpg)
+![0006](images/0006.jpg)
 
 ## Picture Superiority Effect
 
 > Ask yourself this: What information are you representing with the written word on a slide that you could replace with a photograph (or other appropriate image or graphic)?
 
-![original_72]({{ site.baseurl }}/uploads/2016/01/original_72.jpg)
-![woman_text]({{ site.baseurl }}/uploads/2016/01/woman_text.jpg)
+![original_72](images/original_72.jpg)
+![woman_text](images/woman_text.jpg)
 
 For inspiration: Jeff Brenman, the creator of Apollo Ideas, has a talent for combining images and text in a way that is fresh and effective for augmenting the presenter's messages.
 
@@ -180,7 +181,7 @@ For inspiration: Jeff Brenman, the creator of Apollo Ideas, has a talent for com
 
 Considering placing the quote inside a larger photo rather than using a small photo or other element.
 
-![6a00d83451b64669e201a3fcdf317e970b-800wi]({{ site.baseurl }}/uploads/2016/01/6a00d83451b64669e201a3fcdf317e970b-800wi.jpg)
+![6a00d83451b64669e201a3fcdf317e970b-800wi](images/6a00d83451b64669e201a3fcdf317e970b-800wi.jpg)
 
 ## Others
 
