@@ -7,7 +7,7 @@ image:
   creditName: Cathryn Lavery
   credit: https://unsplash.com/photos/fMD_Cru6OTk
 permalink: /blog/make-it-stick
-date:   2016-04-10 11:17:48
+date:   2016-04-10 11:17:48 +1200
 category: reference
 tags: book learning
 comments: false
