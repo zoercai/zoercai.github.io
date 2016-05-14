@@ -3,7 +3,7 @@ layout: post
 title: "Presentation Zen"
 description: My notes of the book by Garr Reynolds
 image:
-  feature: https://images.unsplash.com/photo-1433439216031-9571132ce719?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=49689c50c8f3b8488b644bec64dc0f3c
+  feature: presentation.jpg
   creditName: Johnson Wang
   credit: https://unsplash.com/photos/qG-hPxoAnRE
 permalink: /blog/presentation-zen

@@ -3,7 +3,7 @@ layout: post
 title: "Metadata Icons"
 description: What to use for symbols on the web
 image:
-  feature: https://images.unsplash.com/photo-1417551471850-924c48abad50?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a527f7193b2c6ef81d7df3f16f709ca7
+  feature: metaIcons.jpg
   creditName: Paul Green
   credit: https://unsplash.com/photos/gWFXgcH-LeU
 permalink: /blog/metadata-icons

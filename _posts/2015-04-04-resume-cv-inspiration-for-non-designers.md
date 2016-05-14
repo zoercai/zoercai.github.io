@@ -3,7 +3,7 @@ layout: post
 title: "Resume Inspiration for Non-Designers"
 description: A collection of pretty resumes appropriate for non-creative jobs
 image:
-  feature: http://content.finda.photo/startupstockphotos/94180097361.jpg
+  feature: resume.jpg
   creditName: Startup Stock Photos
   credit: http://startupstockphotos.com
 permalink: /blog/resume-inspiration-for-non-designers

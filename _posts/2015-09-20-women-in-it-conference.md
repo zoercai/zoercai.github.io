@@ -3,7 +3,7 @@ layout: post
 title: "Women in IT Conference"
 description: Highlights and notes from the conference
 image:
-  feature: https://images.unsplash.com/photo-1454023989775-79520f04322c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9e434433acf7e61b897ee692e51e0a4f
+  feature: womenIT.jpg
   creditName: Nick Karvounis
   credit: https://unsplash.com/photos/gN_nIUnjYJI
 permalink: /blog/women-in-it-conference

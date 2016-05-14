@@ -21,7 +21,7 @@ permalink: /blog/
         
         <figure id = "feature-image">
           <a href="{{post.url}}">
-          <img src="{{post.image.feature}}">
+          <img src="/blog/featureImages/{{post.image.feature}}">
           </a>
         </figure>
 
@@ -39,7 +39,7 @@ permalink: /blog/
         <section class="post">
 
           <a href="{{post.url}}">
-          <figure class="post-thumb" style="background:url({% if post.image %}{{post.image.feature}}{% else %}/resources/vinesBg.png{% endif %}) no-repeat center center;background-size:cover">
+          <figure class="post-thumb" style="background:url({% if post.image %}/blog/featureImages/small/{{post.image.feature}}{% else %}/resources/vinesBg.png{% endif %}) no-repeat center center;background-size:cover">
           </figure>
           </a>
 

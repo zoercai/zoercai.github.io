@@ -3,7 +3,7 @@ layout: post
 title: "Software Engineering?"
 description: Answers to FAQ's from students considering studying a software engineering degree
 image:
-  feature: https://farm4.staticflickr.com/3152/3060172795_1fdeb59422_o.jpg
+  feature: softeng.jpg
   creditName: Rsms
   credit: https://www.flickr.com/photos/rsms/3060172795/sizes/o/
 permalink: /blog/choosing-software-engineering

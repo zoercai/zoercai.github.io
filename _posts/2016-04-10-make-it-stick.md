@@ -3,7 +3,7 @@ layout: post
 title: "Make it Stick"
 description: Summarised from Chapter 8 — Make it Stick — The Science of Successful Learning, pages 200 to 217
 image:
-  feature: https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a8634efa3c37ba746fcddfe27388d9fb
+  feature: makeItStick.jpg
   creditName: Cathryn Lavery
   credit: https://unsplash.com/photos/fMD_Cru6OTk
 permalink: /blog/make-it-stick
