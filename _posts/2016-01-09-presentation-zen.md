@@ -132,7 +132,7 @@ It is possible to be “too simple”. Your job is to find the balance most appr
 ### Signal vs Noise Ratio
 
 {% include postImage.html
-    img="/blog/images/6a00d83451b64669e200e54f1e76828834-800wi.jpg"
+    img="6a00d83451b64669e200e54f1e76828834-800wi.jpg"
     title="signal vs noise ratio example" %}
 
 <!-- {% include postImage.html
@@ -149,7 +149,7 @@ But some visuals could be included if they support the message at a more emotion
 2D charts and graphs are almost always a better solution as 3-D charts appear less accurate and can be difficult to comprehend.
 
 {% include postImage.html
-    img="/blog/images/h_bar2_2.jpg"
+    img="h_bar2_2.jpg"
     title="good visuals example"
     creditName="Presentation Zen blog"
     credit="http://www.presentationzen.com/presentationzen/2007/03/a_few_weeks_ago.html" %}
