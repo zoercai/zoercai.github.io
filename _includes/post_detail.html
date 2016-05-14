@@ -6,11 +6,13 @@
   background-size: cover;"></div></a>
 {% endif %}
 
+<div id = "blog-entry">
+
 <h1 class="entry-title">
 
-{% if page.title %}
+<!-- {% if page.title %}
     <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a></div>
-{% endif %}
+{% endif %} -->
 
 {% if post.title %}
     <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
@@ -18,6 +20,8 @@
 
 </h1>
 
-<div class="entry-content">{{ content }}</div>
+<div class="entry-content">{{ content | truncatewords: 100 }}</div>
 
 <div class="more"><a href="{{root_url}}{{post.url}}">Continue Reading</a></div>
+
+</div>

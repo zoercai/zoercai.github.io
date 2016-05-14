@@ -16,7 +16,7 @@ $brand-color:      #01b170;
 
 $spacing-unit:     30px;
 
-$transition-time: .8s;
+$transition-time: .5s;
 
 html{
   text-rendering: optimizeLegibility !important;
@@ -183,32 +183,56 @@ header {
     display: inline-block;
     float: left;
 
-    h1{
-      font-size: 1.2em;
-    }
-
-    h2{
-      font-size: 1.1em;
-    }
-
-    h3, h4{
-      font-size: 1em;
-    }
-
-    .entry-content{
+    .featureImage{
       display: inline-block;
-      height:45vh;
-      width: 100%;
-      overflow: hidden;
-      margin-left: auto;
+      float: left;
+      height: 55vh;
+      width: 50%;
+      background-color: #f5ece7;
+      opacity: 0.7;
+      transition: all 0.5s ease-in;
+        -moz-transition: all 0.5s ease-in;
+        -webkit-transition: all 0.5s ease-in;
+        -o-transition: all 0.5s ease-in;
+        -ms-transition: all 0.5s ease-in;
     }
 
-    .more{
-      margin-top: 3%; 
+    .featureImage:hover{
+      opacity: 1;
     }
 
-    .more:hover{
-      text-decoration: underline;
+    #blog-entry{
+      display: inline-block;
+      width: 47%;
+      padding-left: 3%;
+
+      h1{
+        font-size: 1.2em;
+      }
+
+      h2{
+        font-size: 1.1em;
+      }
+
+      h3, h4{
+        font-size: 1em;
+      }
+
+      .entry-content{
+        height:45vh;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .more{
+        display: inline-block;
+        margin-top: 3%; 
+      }
+
+      .more:hover{
+        display: inline-block;
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -293,35 +317,18 @@ header {
     padding-bottom: 5%;
   }
 
-  .socialIcon{
+  .icon{
    border:0 !important;
    padding: 3%;
    opacity:0.6;
  }
 
- .contact .socialIcon:hover{
+ .contact .icon:hover{
    border:0 !important;
    padding: 3%;
    opacity:1;
  }
 }
-
-.back-to-top {
-  position: fixed;
-  bottom: 2em;
-  right: 0;
-  text-decoration: none;
-  color: $text-color;
-  background-color: rgba(235, 235, 235, 0.80);
-  font-size: 0.8rem;
-  padding: 1em;
-  display: none;
-}
-
-.back-to-top:hover {    
-  background-color: rgba(135, 135, 135, 0.50);
-}
-
 
 @media only screen and (max-width: 950px) and (min-width: 650px) {
   .contact .formLabels .formLabel {
@@ -346,6 +353,20 @@ header {
 
 
 @media only screen and (max-width: 650px) {
+  .blog .blog-index .featureImage{
+    display:none;
+    visibility: hidden;
+  }
+
+  .blog .blog-index #blog-entry{
+    width: 100%;
+    padding: 0;
+
+    .entry-content{
+      height: auto;
+    }
+  }
+
   .contact .formLabels .formLabel {
     margin-bottom: $spacing-unit*1.5;
   }
