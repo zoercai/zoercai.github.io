@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NZ Travel Insurance Comparison"
+title: "A Comparison of All NZ Travel Insurance Policies"
 description: I went through the policy wording documents of every comprehensive travel insurance offered to New Zealanders. Here's what I found, as well as a simple decision guide to choosing the travel insurance for you
 image:
   feature: travel.jpg
@@ -9,20 +9,20 @@ image:
 permalink: /blog/nz-travel-insurance-comparison
 date:   2016-07-05 18:02:48 +1200
 category: travel, reference
-tags: comprehensive travel insurance comparison analysis
+tags: comprehensive travel insurance comparison pitfalls
 comments: true
 published: true
 ---
 
 When you're going travelling, most people would tell you to buy travel insurance. When you're going on a round-the-world graduation trip to countries including Cambodia and Egypt, it's a no-brainer — buy the most comprehensive policy you can find. But with so many companies offering travel insurance, it's hard to know exactly which one is the right one for you. Ideally, the travel insurance you purchase would cover all that you'll need and nothing more, so that you're not paying extra for unnecessary benefits.
 
-Not having any prior experience with travel insurance and being the type of person who gets unsettled by the idea of making uninformed decisions, I naturally had to do at least _some_ research before agreeing to purchase the policy recommended by the travel agent. But my research quickly led me to a video (below), recommended by my Youtube sidebar, that showed how dangerous buying travel insurance without fully understanding the policy can be. Purchasing a travel insurance, in essence, is signing a legal document that binds the insurer to do certain things for you after you pay the agreed amount of money. It's a lot like buying a house, or getting a divorce, except it involves your health, and that big chunk of money you saved up for your trip, and most importantly, your life. Yet, unlike buying a house or getting a divorce, most people don't hire a lawyer when they buy travel insurance, and a lot of people don't even bother to read the policy wording, so they have no idea what they're paying the money for. And after their trip, we see them posting complaints on travel insurance review sites about not getting reimbursements for incidents they thought were covered but actually weren't.
+Not having any prior experience with travel insurance and being the type of person who gets unsettled by the idea of making uninformed decisions, I naturally had to do some research before agreeing to purchase the policy recommended by the travel agent. But my research quickly led me to a video (below), recommended by my Youtube sidebar, that showed how dangerous buying travel insurance without fully understanding the policy can be. Purchasing a travel insurance, in essence, is signing a legal document that binds the insurer to do certain things for you after you pay the agreed amount of money. It's a lot like buying a house, or getting a divorce, except it involves your health, and that big chunk of money you saved up for your trip, and most importantly, your life. Yet, unlike buying a house or getting a divorce, most people don't hire a lawyer when they buy travel insurance, and a lot of people don't even bother to read the policy wording, so they have no idea what they're paying the money for. No wonder we see so many complaints on travel insurance review sites about not getting reimbursements for incidents the buyer thought were covered but actually weren't.
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/G08phgECt3I' frameborder='0' allowfullscreen></iframe></div>
 
 So I decided to dig deeper, and eventually read through just about every travel insurance policy wording document available to New Zealanders. It was overkill, I know, but at least now every one of you reading this can save some time and not buy the wrong travel insurance, which hopefully adds up to a lot more saved time and money.*
 
-_* Of course, this doesn't mean you won't have to read anything before purchasing your travel insurance. You'll still need to read the policy wording of the insurance you're buying, but you won't have to read  every travel insurance policy wording document in New Zealnd like I did._
+_* Of course, this doesn't mean you won't have to read anything before purchasing your travel insurance. You'll still need to read the policy wording of the insurance you're buying, but at least you won't have to read the legal documents of every travel insurance policy in New Zealnd like I did._
 
 # The Findings
 
@@ -30,10 +30,10 @@ I went through the comprehensive travel insurance policies provided by 25 differ
 
 Here are a few themes I found:
 
-* Most travel insurance policies seem to have very similar sections, such as cancellation fee, accidental death, delay, etc. However, simply comparing the benefit limits would not give you an accurate idea of which policy is better, as each policy has different exclusions under each section, which means even if policy A offers a higher limit in a particular section than policy B, policy B might still be better for that section if policy A excludes everything that you need covered in that section.
+* Most travel insurance policies seem to have very similar sections, such as cancellation fee, accidental death, delay, etc. However, simply comparing the benefit limits would not necessarily give you an accurate idea of which policy is better, as each policy has different exclusions under each section, which means even if policy A offers a higher limit in a particular section than policy B, policy B might still be better for that section if policy A excludes everything that you need covered in that section.
 * Some policies don't cover certain countries or regions even though the insurance offered is supposed to have "worldwide" coverage. They don't list the countries that aren't covered either. They just state in the policy wording that the policy excludes countries rated "extreme risk" or "high risk" or not recommended by the [safetravel](https://safetravel.govt.nz) website, which probably excludes more countries than you would think, and it's up to you to check if where you're heading to is covered.
 * Some policies don't cover activities that most people consider normal to do on a holiday, like scuba diving or skiing. Even when the activities are covered, some policies have specific exceptions, such as you're only covered for scuba diving if you already hold a PADI certificate, which means if you're going to take a PADI course to get the certificate, or if you're diving under the supervision of a licensed instructor, you're not covered. For skiing and other snow sports, a lot of insurers will ask you to pay extra for added snow sports coverage.
-* Some policies don't give the option to lower the excess to $0 by paying more premium, which means for every incident that you try to make a claim for, you'll first need to pay at least $100 (sometimes more). This basically renders claiming for stolen money or valuables worth less than $200 — given the slow and troublesome claiming process — unworthy or pointless for most.
+* Some policies don't give the option to lower the excess to $0 by paying more premium, which means for every incident that you try to make a claim for, you'll first need to pay at least $100 (sometimes more). This basically renders claiming for stolen money or valuables worth less than $200 — given the slow and troublesome claiming process — unworthy and pointless for most.
 * Some policies force you to use a public hospital. Yep, even if you're in a developing country with public hospitals that do not meet the western medical standards.
 * Some policies don't allow you to pay an extra premium to cover pre-existing medical conditions. Before you skip to the next bullet point thinking that you don't have any pre-existing medical conditions, be aware that "pre-existing medical conditions" is defined differently by almost every insurer, and a lot of them define it as anything that you've seen a doctor for. Some even count medical conditions that you've had checks for, even when the results turned out to be negative.
 * Adding pre-existing medical conditions that aren't specifically excluded actually isn't as difficult and invasive as one would imagine with some insurers. The additional premium is determined automatically online, and I have seen policies that ask for the same additional premium no matter how many conditions you add.
