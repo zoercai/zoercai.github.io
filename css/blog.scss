@@ -24,7 +24,9 @@ main{
 	    	flex: $section-big;
 	    	float: left;
 	   		margin: 0 $section-space $section-space 0;
+	   		overflow: hidden;
 	    	width: $section-big;
+	    	height: 70vh;
 	    }
 	    
 	    #latest{
@@ -33,6 +35,8 @@ main{
 	    	width: $section-small;
 	    	border-top: 8px solid $accent-colour;
 	    	margin-bottom: $section-space;
+	    	max-height: 70vh;
+    		overflow: hidden;
 	    	// min-height: 25em;
 
 	    	#latest-date{
@@ -51,6 +55,8 @@ main{
 
 	    	#latest-excerpt{
 				// font-size: 0.8em;
+				max-height: 35vh;
+				overflow: hidden;
 	    	}
 
 	    	.read-more{
