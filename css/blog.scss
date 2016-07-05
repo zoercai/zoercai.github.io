@@ -53,10 +53,13 @@ main{
 	    		line-height: 1.2;
 	    	}
 
+	    	.feature-post{
+				max-height: 60vh;
+				overflow: hidden;
+	    	}
+
 	    	#latest-excerpt{
 				// font-size: 0.8em;
-				max-height: 35vh;
-				overflow: hidden;
 	    	}
 
 	    	.read-more{
