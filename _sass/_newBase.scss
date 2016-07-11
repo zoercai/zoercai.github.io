@@ -66,9 +66,11 @@ $heading-font-family: 'Istok Web', sans-serif;
 
 $indent: 3em;
 
-$section-small: 25%;
+$section-small: 38%;
 $section-big: 97%-$section-small;
 $section-space: 3%;
+
+$breakpoint-phone: 1024px;
 
 body {
     font-family: $base-font-family;
@@ -171,6 +173,10 @@ header {
     max-width: 1280px;
     padding: 2em 0 4em;
     
+    @media (max-width: $breakpoint-phone){
+        margin: 5%;
+        text-align: center;
+    }
     // font-family: $heading-font-family;
 
     a{
@@ -183,10 +189,19 @@ header {
         font-size: 1.5em;
         font-weight: bold;
         word-spacing: -0.2em;
+
+        @media (max-width: $breakpoint-phone) {
+            display: block;
+        }
     }
 
     .nav-blog{
         display: inline-block;
         float: right;
+
+        @media (max-width: $breakpoint-phone) {
+            display: block;
+            float: none;
+        }
     }
 }
