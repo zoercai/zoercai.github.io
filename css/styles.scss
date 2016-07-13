@@ -18,6 +18,8 @@ $spacing-unit:     30px;
 
 $transition-time: .5s;
 
+$breakpoint-phone: 1024px;
+
 html{
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -28,6 +30,7 @@ body {
   margin:0px;
   font:$base-font-size $base-font-family;
   color:$text-color;
+  background-color:#f5ece7;
 }
 
 *{
@@ -101,7 +104,8 @@ header {
   background: $background-color;
   padding-top: 10%;
   padding-bottom: 10%;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   font-size: 1rem;
   
   .text{
@@ -220,9 +224,13 @@ header {
       }
 
       .entry-content{
-        height:45vh;
+        max-height:45vh;
         width: 100%;
         overflow: hidden;
+
+        @media (max-width: $breakpoint-phone) {
+          max-height: 200px;
+        }
       }
 
       .more{
