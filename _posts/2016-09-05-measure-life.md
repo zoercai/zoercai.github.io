@@ -32,9 +32,9 @@ Motivation Theory distinguishes between 2 different types of factors: hygiene fa
 
 “Yet it was not lost on me that many of my classmates had initially come to school for very different reasons. They’d written their entrance essays on their hopes for using their education to tackle some of the world’s most vexing social problems or their dreams of becoming entrepreneurs and creating their own businesses.
 
-Periodically, as we were all considering our post graduation plans, we’d try to keep ourselves honest, challenging each other: “what about doing something important, or something you really love? isn’t that why you came here?” “Don’t worry,” came back the answer. “This is just or a couple years. I’ll pay off my loans, get myself in a good financial position, then I’ll go chase my real dreams."
+Periodically, as we were all considering our post graduation plans, we’d try to keep ourselves honest, challenging each other: “what about doing something important, or something you really love? Isn’t that why you came here?” “Don’t worry,” came back the answer. “This is just or a couple years. I’ll pay off my loans, get myself in a good financial position, then I’ll go chase my real dreams."
 
-It was not an unreasonable argument. The pressures we all face — providing for our families, meeting our own expectations and those of our parents and friends, and or some of use, keeping up with our neighbours — are tough. n the case of my classmates (and many graduating classes since), this manifested itself in taking jobs as bankers, fund managers, consultants, and plenty of other well-regarded positions. For some people, it was a choice of passion — they genuinely loved what they did and those jobs worked out well for them .But for others, it was a choice based on getting a good financial return on their expensive degree.
+It was not an unreasonable argument. The pressures we all face — providing for our families, meeting our own expectations and those of our parents and friends, and or some of use, keeping up with our neighbours — are tough. In the case of my classmates (and many graduating classes since), this manifested itself in taking jobs as bankers, fund managers, consultants, and plenty of other well-regarded positions. For some people, it was a choice of passion — they genuinely loved what they did and those jobs worked out well for them. But for others, it was a choice based on getting a good financial return on their expensive degree.
 
 By taking these jobs, they managed to pay back their student loans. Then they got their mortgages under control and their families in conformable financial positions. But somehow that early pledge to return to their real passion after a couple of years kept getting deferred. “Just one more year…” or “I’m not sure what else I would do now.” All the while, their incomes continued to swell.
 
@@ -55,13 +55,13 @@ In our lives and in our careers, whether we are aware of it or not, we are const
 
 If you have found an outlet in your career that provides both the requisite hygiene factors and motivators, then a deliberate approach makes sense. Your aspirations should be clear, and you know from your present experience that they are worth striving for. Rather than worrying about adjusting to unexpected opportunities, your frame of mind should be focused on how best to achieve the goals you have deliberately set.
 
-But if you haven’t reached the pint of finding a career that does this for you, then like a new company finding its way, you need to be emergent. This is another way of saying that if you are in these circumstances, experiment in life. As you learn from each experience, adjust. Then iterate quick. Keep going through this process until your strategy begins to click.
+But if you haven’t reached the point of finding a career that does this for you, then like a new company finding its way, you need to be emergent. This is another way of saying that if you are in these circumstances, experiment in life. As you learn from each experience, adjust. Then iterate quick. Keep going through this process until your strategy begins to click.
 
 ### How do you know if an emergent strategy is worth pursuing?
 
 When a promising new idea emerges, financial projection should, of course, be made. But instead of pretending these are accurate, acknowledge that at this point, they are really rough.
 
-Instead, ask the project teams to compile a list of all the assumptions that have been made in those initial projections. Then ask them: “Which of these assumptions need to prove true in order fro us to realistically expect that these numbers will materailze?”
+Instead, ask the project teams to compile a list of all the assumptions that have been made in those initial projections. Then ask them: “Which of these assumptions need to prove true in order for us to realistically expect that these numbers will materailze?”
 Rank the assumptions from most important and least certain, to least important and most certain.
 
 Similarly, before you take a job, carefully list what things others are going to need to do or to deliver in order for you to successfully achieve what you hope to do. Ask yourself, “what are the assumptions that have to prove true in order for me to be able to succeed in this assignment?” List them. Are they within your control?
@@ -74,13 +74,13 @@ We have resources — which include personal time, energy, talent, and wealth �
 
 Unless you manage it mindfully, your personal resource allocation process will decide investments for you according to the “default” criteria that essentially are wired into your brain and you heart.
 
-But it’s a messy process. People ask of your time and your energy every day, and even if you are focused on what’s important to you, it’s still difficult to know which are the right choices. If you have an extra ounce of energy or a spare thirty minutes, thereat e a lot of people pushing you to spend them here rather than there.
+But it’s a messy process. People ask of your time and your energy every day, and even if you are focused on what’s important to you, it’s still difficult to know which are the right choices. If you have an extra ounce of energy or a spare thirty minutes, there are a lot of people pushing you to spend them here rather than there.
 
 Be careful not to prioritise things that give immediate returns all the time — such as a promotion, a raise, or a bonus — rather than the things that require long-term for, the things that you won’t see a return on for decades.
 
 A strategy — whether in companies or in life — is created through hundreds of everyday decisions about how you spend your time, energy, and money. With every moment of your time, every decision about how you spend your energy and your money, you are making a statement about what really matters to you. You can talk all you want about having a clear purpose and strategy for your life, but ultimately this means nothing if you are not investing the resources you have in a way that is consistent with your strategy. In the end, a strategy is nothing but good intentions unless it’s effectively implemented.
 
-How do you make sure that you’re impelemting the strategy you truly want to implement? Watch where your resources flow.
+How do you make sure that you’re implementing the strategy you truly want to implement? Watch where your resources flow.
 
 # Finding Happiness in Your Relationships
 
@@ -106,11 +106,11 @@ But you have to go beyond understanding what job your spouse needs you to do. Yo
 
 Most of us think that the important ethical decisions in our lives will be delivered with a blinking red neon sign : CAUTION: IMPORTANT DECISION AHEAD. Never mind how busy we are or what the consequences might be. Almost everyone is confident that in those moments of truth, he or she will do the right thing. After all, how many people do you know who believe they do not have integrity?
 
-The problem is, life seldom works that way. It comes with no warning signs. Instead, dos of us will face a series of small, everyday decisions that rarely seem like they have high stakes attached. But over time, they can play out far more dramatically.
+The problem is, life seldom works that way. It comes with no warning signs. Instead, most of us will face a series of small, everyday decisions that rarely seem like they have high stakes attached. But over time, they can play out far more dramatically.
 
 ## Marginal thinking — "Just this once…"
 
-When a company is faced with making an investment in future innovation, it usually crunches the numbers to decide what to do from the perspective of its existing operations. Based on how those numbers play out, it may decide to forego the investment if they marginal upside is not worth the marginal cost of undertaking the investment. But there’s a big mistake buried in that thinking.
+When a company is faced with making an investment in future innovation, it usually crunches the numbers to decide what to do from the perspective of its existing operations. Based on how those numbers play out, it may decide to forego the investment if the marginal upside is not worth the marginal cost of undertaking the investment. But there’s a big mistake buried in that thinking.
 
 And that’s the trap of marginal thinking. You can see the immediate costs of investing, but its’ really hard to accurately see the costs of not investing. When you decide that the upside of investing in the new product isn’t substantial enough while you still have a perfectly acceptable existing product, you aren’t taking into account a future in which somebody else brings the new product to market. You’re assuming everything else — specifically, the money you make on the old product — will continue forever exactly as it has up until now. A company may not see any consequences of that decision for some time. It might not get “caught’ in the short term if a competitor doesn’t get ahead. But the company that makes all its decision through this marginal cost lens will, eventually, pay the price. So often this is what causes successful companies to keep from investing in their future, and, ultimately, to fail.
 The same is true of people, too.
