@@ -1,90 +1,18 @@
----
-layout: base
-title: Zoe Cai
----
+<!doctype html>
+<title>Site Maintenance</title>
+<style>
+  body { text-align: center; padding: 150px; }
+  h1 { font-size: 50px; }
+  body { font: 20px Helvetica, sans-serif; color: #333; }
+  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+</style>
 
-  <link rel="stylesheet" href="css/styles.css">
-  
-</head>
-<body>
-
-    <!-- Start of About Section -->
-    <div class="about">
-      <a name="about"></a>
-      <h1>Hello, I'm Zoe</h1>
-      <div class="text">
-        <p>I am a <strong>software engineer</strong></br> in Auckland.
-          <br/><br/> I write <a href="http://github.com/zoercai">code</a>.<br/><br/>
-          I also like design and <a href="http://photography.zoecai.com">photography</a>. <br/><br/>
-          <a href="/blog/">BLOG</a>
-        </p>
-        <p><br/><a href="#contact">SEND ME A MESSAGE</a></p>
-      </div>
+<article>
+    <h1>Be back soon!</h1>
+    <div>
+        <p>I'm redecorating! If you need to you can always contact me on <a href="https://www.linkedin.com/in/zoecai">LinkedIn</a>, otherwise this site will be back online shortly!</p>
+        <p>&mdash; Zoe</p>
     </div>
-
-
-    <!-- Start of Blog Section -->
-
-    <div class="blog">
-      <a name="blog"></a>
-      <a href="/blog"><h1 class="title">Blog</h1></a>
-      <div class="blog-index">  
-        {% assign post = site.posts.first %}
-        {% assign content = post.content %}
-        {% include post_detail.html %}
-      </div>
-    </div>
-
-
-    <!-- Start of Contact Section -->
-    <div class="contact">
-      <a name="contact"></a>
-      <h1 class="title">Let's talk</h1>
-      <div class="formLabels">
-        <p class="formLabel">Name</p>
-        <p class="formLabel">Email</p>
-        <p class="formLabel">Subject</p>
-        <p class="formLabel">Message</p>
-      </div>
-
-      <div class="formFields">
-        <section id="got-your-email">
-          <form action="http://getsimpleform.com/messages?form_api_token=65f33bef11b85d5696b8a646706b2076" method="post">
-            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type='hidden' name='redirect_to' value='http://zoecai.com/#got-your-email' />
-            <!-- all your input fields here.... -->
-            <p><input class="field" type="text" name="name" /></p>
-            <p><input class="field" type="email" name="email" /></p>
-            <p><input class="field" type="text" name="subject" /></p>
-            <p><textarea class="field" style="height:25vh;" name="message" name="message" /></textarea></p>
-            <p> <input class="submit" type="submit" value="Submit"> </p>
-          </form>
-          <p class="confirmation">
-            Thanks! A carrier pigeon has been dispatched with your message.
-          </p>
-        </section>
-      </div>
-
-      <div class="alternatively">
-        <p>Alternatively you can</p>
-        <p>email: hello@zoecai.com</p>
-        <p> </p>
-        <p>Or find me at:</p>
-        <p>
-          <div class="social">
-            <a href="http://nz.linkedin.com/in/zoecai"><img class="icon" src="/resources/sm/li.png" alt=""/></a>
-            <a href="https://twitter.com/zoercai"><img class="icon" src="/resources/sm/bird.png" alt=""/></a>
-            <a href="http://github.com/zoercai"><img class="icon" src="/resources/sm/github-2.png" alt="Github"/><br/></a>
-            <a href="https://plus.google.com/u/3/115412879037891459844/"><img class="icon" src="/resources/sm/plus.png" alt=""/></a>
-            <a href="http://www.flickr.com/photos/zoesque"><img class="icon" src="/resources/sm/photoSocial.png" alt=""/></a>
-            <a href="http://instagram.com/zoesque"><img class="icon" src="/resources/sm/ig.png" alt=""/></a>
-          </div>
-        </p>
-
-
-      </div>
-
-    </div>
-
-  </body>
-  </html>
+</article>
